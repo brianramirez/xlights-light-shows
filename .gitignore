@@ -1,0 +1,5 @@
+RenderCache
+Backup
+*.fseq
+*.xbkp
+.DS_Store
