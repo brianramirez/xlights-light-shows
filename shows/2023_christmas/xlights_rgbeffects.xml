@@ -916,7 +916,7 @@
     <model DisplayAs="Icicles" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" Controller="No Controller" LayoutGroup="Default" DropPattern="1,8,1" parm2="390" name="Icicles-Lower-LG" WorldPosX="-136.9902" WorldPosY="161.1096" WorldPosZ="193.7139" X2="355.812256" Y2="0.000000" Z2="0.000000" RotateX="0.00000000" Height="-0.500000" Shear="0.000000" versionNumber="5" StartChannel="17527">
       <ControllerConnection Protocol="ws2811"/>
     </model>
-    <model StringType="RGB Nodes" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" name="Matrix" StartSide="T" DisplayAs="Horiz Matrix" LayoutGroup="Default" parm1="32" parm2="128" Controller="pi-fpp" WorldPosX="-490.7857" WorldPosY="148.0963" WorldPosZ="300.0163" ScaleX="1.7341" ScaleY="1.8324" ScaleZ="0.0079" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!pi-fpp:1">
+    <model Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" name="Matrix" StartSide="T" DisplayAs="Horiz Matrix" LayoutGroup="Default" parm1="32" parm2="128" Controller="pi-fpp" StringType="RGB Nodes" WorldPosX="42.3449" WorldPosY="84.3942" WorldPosZ="300.0163" ScaleX="1.1428" ScaleY="1.1593" ScaleZ="0.0079" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!pi-fpp:1">
       <ControllerConnection Port="1" Protocol="LED Panel Matrix"/>
     </model>
     <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" name="Vert 2" Controller="House Primary K16" ModelChain="&gt;Eave 1" parm2="52" WorldPosX="218.6729" WorldPosY="166.2003" WorldPosZ="194.4097" X2="1.825150" Y2="-168.689346" Z2="0.000000" versionNumber="5" StartChannel="!House Primary K16:514">
@@ -1050,6 +1050,7 @@
     <view name="Halloween" models="All Pixels GRP,Floods GRP,Strobes GRP,Eaves GRP,Verts GRP,GE Bats GRP,GE Spider Mini GRP,GE Pumpkin Stack GRP"/>
     <view name="Flood-Strobes" models="Floods GRP,Strobes GRP"/>
     <view name="Eaves-Verts" models="Verts GRP,Eaves GRP"/>
+    <view name="Matrix" models="Matrix"/>
   </views>
   <palettes/>
   <modelGroups>
