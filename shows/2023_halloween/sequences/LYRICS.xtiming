@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="LYRICS" SourceVersion="2023.13">
+   <EffectLayer>
+      <Effect label="When hinges creak in doorless chambers" starttime="28625" endtime="32350" />
+      <Effect label="And strange and frightening sounds echo through the halls" starttime="32625" endtime="37825" />
+      <Effect label="Whenever candle lights flicker" starttime="38300" endtime="40775" />
+      <Effect label="Where the air is deathly still" starttime="41050" endtime="44175" />
+      <Effect label="That is the time when ghosts are present" starttime="44575" endtime="48600" />
+      <Effect label="Practicing their terror with ghoulish delight" starttime="48825" endtime="53775" />
+   </EffectLayer>
+   <EffectLayer>
+      <Effect label="When" starttime="28625" endtime="29050" />
+      <Effect label="hinges" starttime="29050" endtime="29850" />
+      <Effect label="creak" starttime="29850" endtime="30475" />
+      <Effect label="in" starttime="30475" endtime="30775" />
+      <Effect label="doorless" starttime="30775" endtime="31350" />
+      <Effect label="chambers" starttime="31350" endtime="32350" />
+      <Effect label="And" starttime="32625" endtime="32825" />
+      <Effect label="strange" starttime="32825" endtime="33775" />
+      <Effect label="and" starttime="33775" endtime="34000" />
+      <Effect label="frightening" starttime="34000" endtime="34575" />
+      <Effect label="sounds" starttime="34575" endtime="35350" />
+      <Effect label="echo" starttime="35350" endtime="35850" />
+      <Effect label="through" starttime="35850" endtime="36500" />
+      <Effect label="the" starttime="36500" endtime="36700" />
+      <Effect label="halls" starttime="36700" endtime="37825" />
+      <Effect label="Whenever" starttime="38300" endtime="38875" />
+      <Effect label="candle" starttime="38875" endtime="39475" />
+      <Effect label="lights" starttime="39475" endtime="39875" />
+      <Effect label="flicker" starttime="39875" endtime="40775" />
+      <Effect label="Where" starttime="41050" endtime="41150" />
+      <Effect label="the" starttime="41150" endtime="41350" />
+      <Effect label="air" starttime="41350" endtime="42000" />
+      <Effect label="is" starttime="42250" endtime="42575" />
+      <Effect label="deathly" starttime="42675" endtime="43175" />
+      <Effect label="still" starttime="43175" endtime="44175" />
+      <Effect label="That" starttime="44575" endtime="44925" />
+      <Effect label="is" starttime="44925" endtime="45175" />
+      <Effect label="the" starttime="45175" endtime="45350" />
+      <Effect label="time" starttime="45350" endtime="45950" />
+      <Effect label="when" starttime="46250" endtime="46475" />
+      <Effect label="ghosts" starttime="46600" endtime="47400" />
+      <Effect label="are" starttime="47400" endtime="47650" />
+      <Effect label="present" starttime="47650" endtime="48600" />
+      <Effect label="Practicing" starttime="48825" endtime="49725" />
+      <Effect label="their" starttime="49725" endtime="50125" />
+      <Effect label="terror" starttime="50250" endtime="50975" />
+      <Effect label="with" starttime="51150" endtime="51500" />
+      <Effect label="ghoulish" starttime="51500" endtime="52475" />
+      <Effect label="delight" starttime="52475" endtime="53450" />
+   </EffectLayer>
+</timing>
