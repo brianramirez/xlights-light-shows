@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2023.18</version>
+    <version>2023.19</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
@@ -12,7 +12,7 @@
     <comment></comment>
     <sequenceTiming>25 ms</sequenceTiming>
     <sequenceType>Media</sequenceType>
-    <mediaFile>/Users/bramirez/Music/audio/christmas/normalized/Winter Wonderland _ Here Comes Santa Claus.mp3</mediaFile>
+    <mediaFile>C:\Users\brian\Documents\xlights\audio\christmas\normalized\Winter Wonderland _ Here Comes Santa Claus.mp3</mediaFile>
     <sequenceDuration>184.321</sequenceDuration>
     <imageDir/>
   </head>
@@ -33,7 +33,7 @@
     <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View,Pumpking Stack View,Halloween,Flood-Strobes,Eaves-Verts" active="0"/>
     <Element collapsed="0" type="timing" name="SNOOP" visible="1" views="Singing Faces" active="0"/>
     <Element collapsed="0" type="timing" name="ANNA" visible="1" views="Singing Faces" active="0"/>
-    <Element collapsed="0" type="timing" name="BEATS" visible="1" views="Singing Faces" active="1"/>
+    <Element collapsed="0" type="timing" name="BEATS" visible="1" views="Singing Faces" active="0"/>
     <Element collapsed="0" type="model" name="Eaves GRP" visible="1"/>
     <Element collapsed="0" type="model" name="Verts GRP" visible="1"/>
     <Element collapsed="0" type="model" name="GE Pumpkin Stack GRP" visible="1"/>
@@ -2439,7 +2439,7 @@
     </Element>
     <Element type="model" name="Hattitude Quartet">
       <EffectLayer>
-        <Effect ref="0" name="Faces" selected="1" startTime="10000" endTime="182475" palette="0"/>
+        <Effect ref="0" name="Faces" startTime="10000" endTime="182475" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Icicles-Lower-LG">
@@ -2500,7 +2500,7 @@
       <EffectLayer/>
     </Element>
   </ElementEffects>
-  <lastView>5</lastView>
+  <lastView>6</lastView>
   <TimingTags>
     <Tag number="0" position="-1"/>
     <Tag number="1" position="-1"/>
