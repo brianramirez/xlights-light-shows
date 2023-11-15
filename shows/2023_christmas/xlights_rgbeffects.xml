@@ -916,7 +916,7 @@
     <model DisplayAs="Icicles" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" Controller="No Controller" LayoutGroup="Default" DropPattern="1,8,1" parm2="390" name="Icicles-Lower-LG" WorldPosX="-136.9902" WorldPosY="161.1096" WorldPosZ="193.7139" X2="355.812256" Y2="0.000000" Z2="0.000000" RotateX="0.00000000" Height="-0.500000" Shear="0.000000" versionNumber="5" StartChannel="17527">
       <ControllerConnection Protocol="ws2811"/>
     </model>
-    <model Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" name="Matrix" StartSide="T" DisplayAs="Horiz Matrix" LayoutGroup="Default" parm1="32" parm2="128" Controller="pi-fpp" StringType="RGB Nodes" WorldPosX="42.3449" WorldPosY="84.3942" WorldPosZ="300.0163" ScaleX="1.1428" ScaleY="1.1593" ScaleZ="0.0079" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!pi-fpp:1">
+    <model Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" StartSide="T" DisplayAs="Horiz Matrix" LayoutGroup="Default" parm1="32" parm2="128" Controller="pi-fpp" StringType="RGB Nodes" name="128x32-Matrix" WorldPosX="33.2507" WorldPosY="84.3942" WorldPosZ="154.4634" ScaleX="1.1428" ScaleY="1.1593" ScaleZ="0.0079" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!pi-fpp:1">
       <ControllerConnection Port="1" Protocol="LED Panel Matrix"/>
     </model>
     <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" name="Vert 2" Controller="House Primary K16" ModelChain="&gt;Eave 1" parm2="52" WorldPosX="218.6729" WorldPosY="166.2003" WorldPosZ="194.4097" X2="1.825150" Y2="-168.689346" Z2="0.000000" versionNumber="5" StartChannel="!House Primary K16:514">
@@ -1047,15 +1047,15 @@
   <effects version="0007"/>
   <views>
     <view name="Pumpking Stack View" models="GE Pumpkin Stack GRP"/>
-    <view name="Halloween" models="All Pixels GRP,Floods GRP,Strobes GRP,Eaves GRP,Verts GRP,GE Bats GRP,GE Spider Mini GRP,GE Pumpkin Stack GRP"/>
     <view name="Flood-Strobes" models="Floods GRP,Strobes GRP"/>
     <view name="Eaves-Verts" models="Verts GRP,Eaves GRP"/>
-    <view name="Matrix" models="Matrix"/>
+    <view name="Matrix" models="128x32-Matrix"/>
     <view name="Singing Faces" models="Singing Faces GRP,GE Pumpkin Stack GRP,GE Singing Bulb 1 GRP,GE Singing Bulb 2 GRP,Hattitude Quartet,GE Singing Bulb 1,GE Singing Bulb 2,GE Pumpkin Stack Snowman"/>
+    <view name="Spinner" models="Hattitude Quartets GRP,Hattitude Quartet Spoke GRP,Hattitude Quartet Spinners GRP,Hattitude Quartet Ring GRP"/>
   </views>
   <palettes/>
   <modelGroups>
-    <modelGroup selected="0" name="Eaves GRP" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Eave 1"/>
+    <modelGroup selected="0" name="Eaves GRP" LayoutGroup="Default" models="Eave 1,Icicles-Lower-LG" GridSize="400" XCentreOffset="0" YCentreOffset="0" DefaultCamera="2D" layout="minimalGrid" TagColour="black"/>
     <modelGroup selected="0" name="Verts GRP" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Vert 1,Vert 2"/>
     <modelGroup selected="0" name="GE Pumpkin Stack GRP" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="GE Pumpkin Stack Snowman"/>
     <modelGroup selected="0" name="GE Singing Bulb 1 GRP" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="GE Singing Bulb 1"/>
@@ -1143,6 +1143,7 @@
     <Camera name="Front_Street_View_Left" posX="0.000000" posY="0.000000" posZ="0.000000" angleX="349.000000" angleY="20.000000" angleZ="0.000000" distance="-2000.000000" zoom="0.377744" panx="21.312090" pany="-204.374115" panz="0.205959" zoom_corrx="0.000000" zoom_corry="0.000000" is_3d="1"/>
     <Camera name="Front_Street_View_Far" posX="0.000000" posY="0.000000" posZ="0.000000" angleX="350.000000" angleY="1.000000" angleZ="0.000000" distance="-2000.000000" zoom="0.542049" panx="-15.112581" pany="-243.934006" panz="0.442771" zoom_corrx="0.000000" zoom_corry="0.000000" is_3d="1"/>
     <Camera name="Front_View" posX="0.000000" posY="0.000000" posZ="0.000000" angleX="359.000000" angleY="0.000000" angleZ="0.000000" distance="-2000.000000" zoom="0.339970" panx="62.208122" pany="-204.366196" panz="-0.136857" zoom_corrx="0.000000" zoom_corry="0.000000" is_3d="1"/>
+    <Camera name="Faces-CU" posX="0.000000" posY="0.000000" posZ="0.000000" angleX="2.000000" angleY="0.000000" angleZ="0.000000" distance="-2000.000000" zoom="0.133734" panx="-35.596813" pany="-284.651184" panz="-7.210306" zoom_corrx="0.000000" zoom_corry="0.000000" is_3d="1"/>
     <DefaultCamera3D name="DEFAULT3D" posX="0.000000" posY="0.000000" posZ="0.000000" angleX="359.000000" angleY="0.000000" angleZ="0.000000" distance="-2000.000000" zoom="0.377744" panx="56.061565" pany="-192.286270" panz="-0.136857" zoom_corrx="0.000000" zoom_corry="0.000000" is_3d="1"/>
   </Viewpoints>
 </xrgb>

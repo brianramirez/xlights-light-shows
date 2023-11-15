@@ -14,17 +14,20 @@
     <sequenceType>Media</sequenceType>
     <mediaFile>C:\Users\brian\Documents\xlights\audio\christmas\normalized\Elf - Santa Announcement.mp3</mediaFile>
     <sequenceDuration>58.711</sequenceDuration>
-    <imageDir></imageDir>
+    <imageDir/>
   </head>
   <nextid>1</nextid>
   <Jukebox/>
   <ColorPalettes>
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette7=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FF00FF,C_BUTTON_Palette2=#00FFFF,C_BUTTON_Palette3=#008000,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1</ColorPalette>
   </ColorPalettes>
   <EffectDB>
     <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Quartet Reindeer Rudolph,E_CHOICE_Faces_TimingTrack=BUDDY</Effect>
-    <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Quartet Tree,E_CHOICE_Faces_TimingTrack=PERSON 1</Effect>
-    <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Upright Bulb,E_CHOICE_Faces_TimingTrack=PERSON 1</Effect>
+    <Effect>E_CHECKBOX_Twinkle_ReRandom=0,E_CHECKBOX_Twinkle_Strobe=0,E_CHOICE_Twinkle_Style=New Render Method,E_SLIDER_Twinkle_Count=66,E_SLIDER_Twinkle_Steps=110</Effect>
+    <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Upright Bulb - Custom,E_CHOICE_Faces_TimingTrack=PERSON 1</Effect>
+    <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Upright Bulb - Custom,E_CHOICE_Faces_TimingTrack=PERSON 2</Effect>
   </EffectDB>
   <DataLayers>
     <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
@@ -33,6 +36,7 @@
     <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View,Pumpking Stack View,Halloween,Flood-Strobes,Eaves-Verts,Matrix,Singing Faces" active="0"/>
     <Element collapsed="0" type="timing" name="BUDDY" visible="1" views="Singing Faces" active="0"/>
     <Element collapsed="0" type="timing" name="PERSON 1" visible="1" views="Singing Faces" active="0"/>
+    <Element collapsed="0" type="timing" name="PERSON 2" visible="1" views="Singing Faces" active="0"/>
     <Element collapsed="0" type="model" name="Eaves GRP" visible="1"/>
     <Element collapsed="0" type="model" name="Verts GRP" visible="1"/>
     <Element collapsed="0" type="model" name="GE Pumpkin Stack GRP" visible="1"/>
@@ -172,7 +176,6 @@
         <Effect label="etc" startTime="9850" endTime="9900"></Effect>
         <Effect label="etc" startTime="10600" endTime="10650"></Effect>
         <Effect label="O" startTime="10650" endTime="10800"></Effect>
-        <Effect label="AI" startTime="10800" endTime="10800"></Effect>
         <Effect label="etc" startTime="10800" endTime="10850"></Effect>
         <Effect label="AI" startTime="10850" endTime="10900"></Effect>
         <Effect label="etc" startTime="10900" endTime="10950"></Effect>
@@ -209,7 +212,6 @@
         <Effect label="etc" startTime="18750" endTime="18800"></Effect>
         <Effect label="etc" startTime="18800" endTime="18850"></Effect>
         <Effect label="etc" startTime="18850" endTime="18900"></Effect>
-        <Effect label="L" startTime="18900" endTime="18900"></Effect>
         <Effect label="AI" startTime="18900" endTime="18925"></Effect>
         <Effect label="etc" startTime="18925" endTime="18975"></Effect>
         <Effect label="etc" startTime="18975" endTime="19025"></Effect>
@@ -381,13 +383,6 @@
         <Effect label="COMING" startTime="48475" endTime="48775"></Effect>
         <Effect label="TO" startTime="48775" endTime="48850"></Effect>
         <Effect label="TOWN" startTime="48850" endTime="49375"></Effect>
-        <Effect label="CAN" startTime="49850" endTime="49950"></Effect>
-        <Effect label="YOU" startTime="49950" endTime="50000"></Effect>
-        <Effect label="SIGN" startTime="50000" endTime="50200"></Effect>
-        <Effect label="THIS" startTime="50200" endTime="50325"></Effect>
-        <Effect label="FOR" startTime="50325" endTime="50550"></Effect>
-        <Effect label="ME" startTime="50550" endTime="50850"></Effect>
-        <Effect label="PLEASE" startTime="50850" endTime="50950"></Effect>
       </EffectLayer>
       <EffectLayer>
         <Effect label="etc" startTime="5650" endTime="5700"></Effect>
@@ -407,7 +402,6 @@
         <Effect label="etc" startTime="8600" endTime="8650"></Effect>
         <Effect label="E" startTime="8650" endTime="8825"></Effect>
         <Effect label="etc" startTime="8825" endTime="8875"></Effect>
-        <Effect label="AI" startTime="8875" endTime="8875"></Effect>
         <Effect label="etc" startTime="8875" endTime="8925"></Effect>
         <Effect label="AI" startTime="8925" endTime="9250"></Effect>
         <Effect label="etc" startTime="9250" endTime="9300"></Effect>
@@ -498,7 +492,6 @@
         <Effect label="FV" startTime="26550" endTime="26600"></Effect>
         <Effect label="O" startTime="26600" endTime="26650"></Effect>
         <Effect label="etc" startTime="26650" endTime="26700"></Effect>
-        <Effect label="AI" startTime="26700" endTime="26700"></Effect>
         <Effect label="etc" startTime="26700" endTime="26750"></Effect>
         <Effect label="AI" startTime="26750" endTime="26800"></Effect>
         <Effect label="etc" startTime="26800" endTime="26850"></Effect>
@@ -547,7 +540,6 @@
         <Effect label="AI" startTime="32150" endTime="32225"></Effect>
         <Effect label="etc" startTime="32225" endTime="32275"></Effect>
         <Effect label="etc" startTime="32275" endTime="32325"></Effect>
-        <Effect label="U" startTime="32325" endTime="32325"></Effect>
         <Effect label="etc" startTime="32325" endTime="32375"></Effect>
         <Effect label="O" startTime="32375" endTime="32550"></Effect>
         <Effect label="etc" startTime="32550" endTime="32600"></Effect>
@@ -627,25 +619,48 @@
         <Effect label="etc" startTime="48850" endTime="48900"></Effect>
         <Effect label="O" startTime="48900" endTime="49325"></Effect>
         <Effect label="etc" startTime="49325" endTime="49375"></Effect>
-        <Effect label="etc" startTime="49850" endTime="49900"></Effect>
-        <Effect label="etc" startTime="49900" endTime="49950"></Effect>
-        <Effect label="etc" startTime="49950" endTime="50000"></Effect>
-        <Effect label="U" startTime="50000" endTime="50000"></Effect>
+      </EffectLayer>
+    </Element>
+    <Element type="timing" name="PERSON 2">
+      <EffectLayer>
+        <Effect label="CAN" startTime="49850" endTime="49950"></Effect>
+        <Effect label="YOU" startTime="49950" endTime="50000"></Effect>
+        <Effect label="SIGN" startTime="50000" endTime="50200"></Effect>
+        <Effect label="THIS" startTime="50200" endTime="50325"></Effect>
+        <Effect label="FOR" startTime="50325" endTime="50550"></Effect>
+        <Effect label="ME" startTime="50550" endTime="50850"></Effect>
+        <Effect label="PLEASE" startTime="50850" endTime="50950"></Effect>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect label="CAN" startTime="49850" endTime="49950"></Effect>
+        <Effect label="YOU" startTime="49950" endTime="50000"></Effect>
+        <Effect label="SIGN" startTime="50000" endTime="50200"></Effect>
+        <Effect label="THIS" startTime="50200" endTime="50325"></Effect>
+        <Effect label="FOR" startTime="50325" endTime="50550"></Effect>
+        <Effect label="ME" startTime="50550" endTime="50850"></Effect>
+        <Effect label="PLEASE" startTime="50850" endTime="50950"></Effect>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect label="etc" startTime="49850" endTime="49875"></Effect>
+        <Effect label="AI" startTime="49875" endTime="49925"></Effect>
+        <Effect label="etc" startTime="49925" endTime="49950"></Effect>
+        <Effect label="etc" startTime="49950" endTime="49975"></Effect>
+        <Effect label="U" startTime="49975" endTime="50000"></Effect>
         <Effect label="etc" startTime="50000" endTime="50050"></Effect>
         <Effect label="AI" startTime="50050" endTime="50150"></Effect>
         <Effect label="etc" startTime="50150" endTime="50200"></Effect>
-        <Effect label="etc" startTime="50200" endTime="50250"></Effect>
-        <Effect label="AI" startTime="50250" endTime="50275"></Effect>
-        <Effect label="etc" startTime="50275" endTime="50325"></Effect>
+        <Effect label="etc" startTime="50200" endTime="50225"></Effect>
+        <Effect label="AI" startTime="50225" endTime="50300"></Effect>
+        <Effect label="etc" startTime="50300" endTime="50325"></Effect>
         <Effect label="FV" startTime="50325" endTime="50400"></Effect>
         <Effect label="O" startTime="50400" endTime="50500"></Effect>
         <Effect label="etc" startTime="50500" endTime="50550"></Effect>
         <Effect label="MBP" startTime="50550" endTime="50600"></Effect>
         <Effect label="E" startTime="50600" endTime="50850"></Effect>
-        <Effect label="MBP" startTime="50850" endTime="50900"></Effect>
-        <Effect label="L" startTime="50900" endTime="50900"></Effect>
-        <Effect label="E" startTime="50900" endTime="50900"></Effect>
-        <Effect label="etc" startTime="50900" endTime="50950"></Effect>
+        <Effect label="MBP" startTime="50850" endTime="50875"></Effect>
+        <Effect label="L" startTime="50875" endTime="50900"></Effect>
+        <Effect label="E" startTime="50900" endTime="50925"></Effect>
+        <Effect label="etc" startTime="50925" endTime="50950"></Effect>
       </EffectLayer>
     </Element>
     <Element type="model" name="Eaves GRP">
@@ -738,39 +753,13 @@
     <Element type="model" name="Hattitude Quartet">
       <EffectLayer/>
       <EffectLayer>
-        <Effect ref="0" name="Faces" startTime="2000" endTime="5625" palette="0"/>
-        <Effect ref="0" name="Faces" id="1" startTime="7100" endTime="8150" palette="0"/>
-        <Effect ref="0" name="Faces" id="2" startTime="9300" endTime="9900" palette="0"/>
-        <Effect ref="0" name="Faces" id="3" startTime="10600" endTime="11375" palette="0"/>
-        <Effect ref="0" name="Faces" id="4" startTime="12100" endTime="12925" palette="0"/>
-        <Effect ref="0" name="Faces" id="5" startTime="13875" endTime="17350" palette="0"/>
-        <Effect ref="0" name="Faces" id="6" startTime="18650" endTime="21500" palette="0"/>
-        <Effect ref="0" name="Faces" id="7" startTime="23550" endTime="23800" palette="0"/>
-        <Effect ref="0" name="Faces" id="8" startTime="24900" endTime="26000" palette="0"/>
-        <Effect ref="0" name="Faces" id="9" startTime="27450" endTime="27700" palette="0"/>
-        <Effect ref="0" name="Faces" id="10" startTime="32275" endTime="40575" palette="0"/>
-        <Effect ref="0" name="Faces" id="11" startTime="43200" endTime="44050" palette="0"/>
-        <Effect ref="0" name="Faces" id="12" startTime="46950" endTime="48175" palette="0"/>
-        <Effect ref="0" name="Faces" id="13" startTime="49375" endTime="57000" palette="0"/>
-      </EffectLayer>
-      <EffectLayer>
-        <Effect ref="1" name="Faces" startTime="5625" endTime="7100" palette="0"/>
-        <Effect ref="1" name="Faces" id="1" startTime="8150" endTime="9300" palette="0"/>
-        <Effect ref="1" name="Faces" id="2" startTime="9900" endTime="10600" palette="0"/>
-        <Effect ref="1" name="Faces" id="3" startTime="11375" endTime="12100" palette="0"/>
-        <Effect ref="1" name="Faces" id="4" startTime="12925" endTime="13875" palette="0"/>
-        <Effect ref="1" name="Faces" id="5" startTime="17350" endTime="18650" palette="0"/>
-        <Effect ref="1" name="Faces" id="6" startTime="21500" endTime="23550" palette="0"/>
-        <Effect ref="1" name="Faces" id="7" startTime="23800" endTime="24900" palette="0"/>
-        <Effect ref="1" name="Faces" id="8" startTime="26000" endTime="27450" palette="0"/>
-        <Effect ref="1" name="Faces" id="9" startTime="27700" endTime="32275" palette="0"/>
-        <Effect ref="1" name="Faces" id="10" startTime="40575" endTime="43200" palette="0"/>
-        <Effect ref="1" name="Faces" id="11" startTime="44050" endTime="46950" palette="0"/>
-        <Effect ref="1" name="Faces" id="12" startTime="48175" endTime="49375" palette="0"/>
+        <Effect ref="0" name="Faces" startTime="2000" endTime="57150" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Icicles-Lower-LG">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="1" name="Twinkle" selected="1" startTime="1975" endTime="57175" palette="1"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Matrix">
       <EffectLayer/>
@@ -795,11 +784,13 @@
     </Element>
     <Element type="model" name="GE Singing Bulb 1">
       <EffectLayer>
-        <Effect ref="2" name="Faces" startTime="49850" endTime="57000" palette="0"/>
+        <Effect ref="2" name="Faces" startTime="2000" endTime="57150" palette="2"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GE Singing Bulb 2">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="3" name="Faces" startTime="2000" endTime="57150" palette="2"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Tree A2">
       <EffectLayer/>
@@ -814,7 +805,7 @@
       <EffectLayer/>
     </Element>
   </ElementEffects>
-  <lastView>6</lastView>
+  <lastView>0</lastView>
   <TimingTags>
     <Tag number="0" position="-1"/>
     <Tag number="1" position="-1"/>
