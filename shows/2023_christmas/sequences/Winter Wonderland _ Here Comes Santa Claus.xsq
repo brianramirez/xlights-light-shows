@@ -59,7 +59,7 @@
     <Effect>E_CHECKBOX_Mirror_Wave=0,E_CHOICE_Fill_Colors=Palette,E_CHOICE_Wave_Direction=Left to Right,E_CHOICE_Wave_Type=Sine,E_SLIDER_Number_Waves=1200,E_SLIDER_Thickness_Percentage=25,E_SLIDER_Wave_Height=41,E_SLIDER_Wave_YOffset=-59,E_TEXTCTRL_Wave_Speed=10.00</Effect>
     <Effect>E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=From Middle,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_SingleStrand_FX=Fireworks 1D,E_CHOICE_SingleStrand_FX_Palette=* Colors Only,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=63,E_SLIDER_FX_Intensity=128,E_SLIDER_FX_Speed=128,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Offset=0.0,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
     <Effect>E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=From Middle,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_SingleStrand_FX=Fireworks 1D,E_CHOICE_SingleStrand_FX_Palette=* Colors Only,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=100,E_SLIDER_FX_Intensity=128,E_SLIDER_FX_Speed=128,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Offset=0.0,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
-    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=left,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=12-15x15 Bold,E_FONTPICKER_Text_Font='segoe ui',E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=-50,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=TUNE TO 91.7FM,E_TEXTCTRL_Text_Speed=15</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=left,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=12-15x15 Bold,E_FILEPICKERCTRL_Text_File=,E_FONTPICKER_Text_Font='segoe ui',E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=-50,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=TUNE TO 91.7FM,E_TEXTCTRL_Text_Speed=15</Effect>
     <Effect>E_CHOICE_Falling=Falling,E_SLIDER_Snowflakes_Count=5,E_SLIDER_Snowflakes_Speed=10,E_SLIDER_Snowflakes_Type=5,E_SLIDER_Snowflakes_WarmupFrames=0</Effect>
     <Effect>E_CHECKBOX_Marquee_PixelOffsets=0,E_CHECKBOX_Marquee_Reverse=0,E_CHECKBOX_Marquee_WrapX=0,E_CHECKBOX_Marquee_WrapY=0,E_NOTEBOOK_Marquee=Settings,E_SLIDER_MarqueeXC=0,E_SLIDER_MarqueeYC=0,E_SLIDER_Marquee_Band_Size=10,E_SLIDER_Marquee_ScaleX=100,E_SLIDER_Marquee_ScaleY=100,E_SLIDER_Marquee_Skip_Size=0,E_SLIDER_Marquee_Speed=2,E_SLIDER_Marquee_Stagger=0,E_SLIDER_Marquee_Start=0,E_SLIDER_Marquee_Thickness=2</Effect>
     <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Upright Bulb - Custom,E_CHOICE_Faces_TimingTrack=ANNA</Effect>
@@ -2538,7 +2538,7 @@
     <Element type="model" name="Hattitude Quartet">
       <EffectLayer>
         <Effect ref="11" name="Faces" startTime="9550" endTime="27300" palette="10"/>
-        <Effect ref="11" name="Faces" id="1" startTime="40950" endTime="182500" palette="10"/>
+        <Effect ref="11" name="Faces" selected="1" id="1" startTime="40950" endTime="182500" palette="10"/>
       </EffectLayer>
       <SubModelEffectLayer name="Outer Ring">
         <Effect ref="12" name="SingleStrand" startTime="10000" endTime="26200" palette="11"/>
@@ -2570,14 +2570,14 @@
     </Element>
     <Element type="model" name="128x32-Matrix">
       <EffectLayer>
-        <Effect ref="20" name="Text" startTime="-179" endTime="184321" palette="16"/>
+        <Effect ref="20" name="Text" startTime="0" endTime="184325" palette="16"/>
       </EffectLayer>
       <EffectLayer/>
       <EffectLayer>
-        <Effect ref="21" name="Snowflakes" selected="1" startTime="0" endTime="184321" palette="1"/>
+        <Effect ref="21" name="Snowflakes" startTime="0" endTime="184325" palette="1"/>
       </EffectLayer>
       <EffectLayer>
-        <Effect ref="22" name="Marquee" startTime="-79" endTime="184321" palette="10"/>
+        <Effect ref="22" name="Marquee" startTime="0" endTime="184325" palette="10"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Vert 2">
@@ -2613,7 +2613,7 @@
         <Effect ref="23" name="Faces" id="1" startTime="71675" endTime="77225" palette="17"/>
         <Effect ref="23" name="Faces" id="2" startTime="84250" endTime="97500" palette="17"/>
         <Effect ref="23" name="Faces" id="3" startTime="100225" endTime="119750" palette="17"/>
-        <Effect ref="23" name="Faces" selected="1" id="4" startTime="157000" endTime="180250" palette="17"/>
+        <Effect ref="23" name="Faces" id="4" startTime="157000" endTime="180250" palette="17"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Tree A2">
