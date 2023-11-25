@@ -1046,11 +1046,11 @@
   </view_objects>
   <effects version="0007"/>
   <views>
-    <view name="Pumpking Stack View" models="GE Pumpkin Stack GRP"/>
-    <view name="Flood-Strobes" models="Floods GRP,Strobes GRP"/>
+    <view name="Pumpking Stack View" models=""/>
+    <view name="Flood-Strobes" models="Floods GRP"/>
     <view name="Eaves-Verts" models="Verts GRP,Eaves GRP"/>
     <view name="Matrix" models="128x32-Matrix"/>
-    <view name="Singing Faces" models="Singing Faces GRP,GE Pumpkin Stack GRP,GE Singing Bulb 1 GRP,GE Singing Bulb 2 GRP,Hattitude Quartet,GE Singing Bulb 1,GE Singing Bulb 2,GE Pumpkin Stack Snowman"/>
+    <view name="Singing Faces" models="Singing Faces GRP,GE Singing Bulb 1 GRP,GE Singing Bulb 2 GRP,Hattitude Quartet,GE Singing Bulb 1,GE Singing Bulb 2,GE Pumpkin Stack Snowman"/>
     <view name="Spinner" models="Hattitude Quartets GRP,Hattitude Quartet Spoke GRP,Hattitude Quartet Spinners GRP,Hattitude Quartet Ring GRP"/>
   </views>
   <palettes/>
