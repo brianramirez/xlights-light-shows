@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2023.19</version>
+    <version>2023.20</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
@@ -20,23 +20,25 @@
   <Jukebox/>
   <ColorPalettes>
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FF0080,C_BUTTON_Palette2=#FFFFFF,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#FF8040,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#008000,C_BUTTON_Palette4=#00FF00,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette7=1</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette7=1</ColorPalette>
-    <ColorPalette>C_BUTTON_Palette1=#FF00FF,C_BUTTON_Palette2=#00FFFF,C_BUTTON_Palette3=#008000,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1</ColorPalette>
   </ColorPalettes>
   <EffectDB>
     <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Quartet Reindeer Rudolph,E_CHOICE_Faces_TimingTrack=BUDDY</Effect>
-    <Effect>E_CHECKBOX_Twinkle_ReRandom=0,E_CHECKBOX_Twinkle_Strobe=0,E_CHOICE_Twinkle_Style=New Render Method,E_SLIDER_Twinkle_Count=66,E_SLIDER_Twinkle_Steps=110</Effect>
-    <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Upright Bulb - Custom,E_CHOICE_Faces_TimingTrack=PERSON 1</Effect>
-    <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Upright Bulb - Custom,E_CHOICE_Faces_TimingTrack=PERSON 2</Effect>
+    <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_EyeBlinkFrequency=Normal,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Upright Bulb - Custom,E_CHOICE_Faces_TimingTrack=PERSON 1</Effect>
+    <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_EyeBlinkFrequency=Normal,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Upright Bulb - Custom,E_CHOICE_Faces_TimingTrack=PERSON 2</Effect>
+    <Effect>B_CHOICE_BufferStyle=Overlay - Centered,E_CHECKBOX_Mirror_Wave=0,E_CHOICE_Fill_Colors=Palette,E_CHOICE_Wave_Direction=Right to Left,E_CHOICE_Wave_Type=Sine,E_SLIDER_Number_Waves=1539,E_SLIDER_Thickness_Percentage=50,E_SLIDER_Wave_Height=85,E_SLIDER_Wave_YOffset=0,E_TEXTCTRL_Wave_Speed=10</Effect>
+    <Effect>B_CHOICE_BufferStyle=Overlay - Centered,E_CHOICE_Falling=Falling,E_SLIDER_Snowflakes_Count=100,E_SLIDER_Snowflakes_Speed=10,E_SLIDER_Snowflakes_Type=1,E_SLIDER_Snowflakes_WarmupFrames=0</Effect>
   </EffectDB>
   <DataLayers>
     <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
   </DataLayers>
   <DisplayElements>
     <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View,Pumpking Stack View,Halloween,Flood-Strobes,Eaves-Verts,Matrix,Singing Faces" active="0"/>
-    <Element collapsed="0" type="timing" name="BUDDY" visible="1" views="Singing Faces" active="0"/>
-    <Element collapsed="0" type="timing" name="PERSON 1" visible="1" views="Singing Faces" active="0"/>
-    <Element collapsed="0" type="timing" name="PERSON 2" visible="1" views="Singing Faces" active="0"/>
+    <Element collapsed="1" type="timing" name="BUDDY" visible="1" views="Singing Faces,Christmas View" active="0"/>
+    <Element collapsed="1" type="timing" name="PERSON 1" visible="1" views="Singing Faces,Christmas View" active="0"/>
+    <Element collapsed="1" type="timing" name="PERSON 2" visible="1" views="Singing Faces,Christmas View" active="0"/>
     <Element collapsed="0" type="model" name="Eaves GRP" visible="1"/>
     <Element collapsed="0" type="model" name="Verts GRP" visible="1"/>
     <Element collapsed="0" type="model" name="GE Pumpkin Stack GRP" visible="1"/>
@@ -68,7 +70,6 @@
     <Element collapsed="0" type="model" name="Singing Faces GRP" visible="1"/>
     <Element collapsed="0" type="model" name="Hattitude Quartet" visible="1"/>
     <Element collapsed="0" type="model" name="Icicles-Lower-LG" visible="1"/>
-    <Element collapsed="0" type="model" name="Matrix" visible="1"/>
     <Element collapsed="0" type="model" name="Vert 2" visible="1"/>
     <Element collapsed="0" type="model" name="Vert 1" visible="1"/>
     <Element collapsed="0" type="model" name="DMX Controller" visible="1"/>
@@ -81,6 +82,9 @@
     <Element collapsed="0" type="model" name="Tree A3" visible="1"/>
     <Element collapsed="0" type="model" name="Tree A1" visible="1"/>
     <Element collapsed="0" type="model" name="Eave 1" visible="1"/>
+    <Element collapsed="0" type="model" name="Icicles GRP" visible="1"/>
+    <Element collapsed="0" type="model" name="128x32-Matrix" visible="1"/>
+    <Element collapsed="0" type="model" name="All Pixels No Flood GRP" visible="1"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="New Timing">
@@ -757,11 +761,6 @@
       </EffectLayer>
     </Element>
     <Element type="model" name="Icicles-Lower-LG">
-      <EffectLayer>
-        <Effect ref="1" name="Twinkle" selected="1" startTime="1975" endTime="57175" palette="1"/>
-      </EffectLayer>
-    </Element>
-    <Element type="model" name="Matrix">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Vert 2">
@@ -784,12 +783,12 @@
     </Element>
     <Element type="model" name="GE Singing Bulb 1">
       <EffectLayer>
-        <Effect ref="2" name="Faces" startTime="2000" endTime="57150" palette="2"/>
+        <Effect ref="1" name="Faces" selected="1" startTime="2000" endTime="57150" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GE Singing Bulb 2">
       <EffectLayer>
-        <Effect ref="3" name="Faces" startTime="2000" endTime="57150" palette="2"/>
+        <Effect ref="2" name="Faces" startTime="2000" endTime="57150" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Tree A2">
@@ -804,8 +803,21 @@
     <Element type="model" name="Eave 1">
       <EffectLayer/>
     </Element>
+    <Element type="model" name="Icicles GRP">
+      <EffectLayer>
+        <Effect ref="3" name="Wave" selected="1" startTime="0" endTime="58800" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="128x32-Matrix">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="All Pixels No Flood GRP">
+      <EffectLayer>
+        <Effect ref="4" name="Snowflakes" startTime="0" endTime="58700" palette="3"/>
+      </EffectLayer>
+    </Element>
   </ElementEffects>
-  <lastView>0</lastView>
+  <lastView>5</lastView>
   <TimingTags>
     <Tag number="0" position="-1"/>
     <Tag number="1" position="-1"/>
