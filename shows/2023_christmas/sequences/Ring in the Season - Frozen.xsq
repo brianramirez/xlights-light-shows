@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2023.19</version>
+    <version>2023.20</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
@@ -34,9 +34,9 @@
     <ColorPalette>C_BUTTON_Palette1=#FF80C0,C_BUTTON_Palette2=#00FFFF,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1</ColorPalette>
   </ColorPalettes>
   <EffectDB>
+    <Effect>E_TEXTCTRL_Eff_On_End=0</Effect>
     <Effect>B_CHOICE_BufferStyle=Vertical Stack,E_CHOICE_Falling=Falling,E_SLIDER_Snowflakes_Count=3,E_SLIDER_Snowflakes_Speed=3,E_SLIDER_Snowflakes_Type=1,E_SLIDER_Snowflakes_WarmupFrames=0</Effect>
     <Effect>E_CHECKBOX_Twinkle_ReRandom=0,E_CHECKBOX_Twinkle_Strobe=1,E_CHOICE_Twinkle_Style=New Render Method,E_SLIDER_Twinkle_Count=69,E_SLIDER_Twinkle_Steps=11</Effect>
-    <Effect>E_TEXTCTRL_Eff_On_End=0</Effect>
     <Effect></Effect>
     <Effect>E_CHECKBOX_ColorWash_ReverseFades=1</Effect>
     <Effect>T_TEXTCTRL_Fadein=1.00</Effect>
@@ -53,10 +53,10 @@
     <DataLayer lor_params="2883640" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
   </DataLayers>
   <DisplayElements>
-    <Element collapsed="0" type="timing" name="Lyrics - ANNA" visible="1" views="Singing Faces,Flood-Strobes,Eaves-Verts" active="0"/>
-    <Element collapsed="0" type="timing" name="Lyrics - ELSA" visible="1" views="Singing Faces,Flood-Strobes,Eaves-Verts" active="0"/>
-    <Element collapsed="0" type="timing" name="Lyrics - OLAF" visible="1" views="Singing Faces,Flood-Strobes,Eaves-Verts" active="0"/>
-    <Element collapsed="0" type="timing" name="Beats" visible="1" views="Flood-Strobes,Eaves-Verts" active="0"/>
+    <Element collapsed="0" type="timing" name="Lyrics - ANNA" visible="1" views="Singing Faces,Flood-Strobes,Eaves-Verts,Christmas View" active="0"/>
+    <Element collapsed="0" type="timing" name="Lyrics - ELSA" visible="1" views="Singing Faces,Flood-Strobes,Eaves-Verts,Christmas View" active="0"/>
+    <Element collapsed="0" type="timing" name="Lyrics - OLAF" visible="1" views="Singing Faces,Flood-Strobes,Eaves-Verts,Christmas View" active="0"/>
+    <Element collapsed="0" type="timing" name="Beats" visible="1" views="Flood-Strobes,Eaves-Verts,Christmas View" active="1"/>
     <Element collapsed="0" type="model" name="Eaves GRP" visible="1"/>
     <Element collapsed="0" type="model" name="Verts GRP" visible="1"/>
     <Element collapsed="0" type="model" name="GE Pumpkin Stack GRP" visible="1"/>
@@ -101,6 +101,8 @@
     <Element collapsed="0" type="model" name="Tree A3" visible="1"/>
     <Element collapsed="0" type="model" name="Tree A1" visible="1"/>
     <Element collapsed="0" type="model" name="Eave 1" visible="1"/>
+    <Element collapsed="0" type="model" name="All Pixels No Flood GRP" visible="1"/>
+    <Element collapsed="0" type="model" name="Icicles GRP" visible="1"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="Lyrics - ANNA">
@@ -1554,17 +1556,23 @@
       </EffectLayer>
     </Element>
     <Element type="model" name="Eaves GRP">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="78425" endTime="80725" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="81500" endTime="83675" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="84500" endTime="86500" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="87075" endTime="89150" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Verts GRP">
       <EffectLayer>
-        <Effect ref="0" name="Snowflakes" startTime="500" endTime="7775" palette="0"/>
-        <Effect ref="1" name="Twinkle" id="1" startTime="23000" endTime="23500" palette="1"/>
-        <Effect ref="1" name="Twinkle" id="2" startTime="24550" endTime="25050" palette="1"/>
-        <Effect ref="2" name="On" id="3" startTime="78500" endTime="80725" palette="0"/>
-        <Effect ref="2" name="On" id="4" startTime="81500" endTime="83700" palette="0"/>
-        <Effect ref="2" name="On" id="5" startTime="84500" endTime="86500" palette="0"/>
-        <Effect ref="2" name="On" id="6" startTime="87000" endTime="89300" palette="0"/>
+        <Effect ref="1" name="Snowflakes" startTime="500" endTime="7775" palette="0"/>
+        <Effect ref="2" name="Twinkle" id="1" startTime="23000" endTime="23500" palette="1"/>
+        <Effect ref="2" name="Twinkle" id="2" startTime="24550" endTime="25050" palette="1"/>
+        <Effect ref="2" name="Twinkle" id="5" startTime="30425" endTime="30800" palette="1"/>
+        <Effect ref="0" name="On" id="6" startTime="78425" endTime="80725" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="81500" endTime="83700" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="84500" endTime="86500" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="87075" endTime="89150" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GE Pumpkin Stack GRP">
@@ -1588,42 +1596,42 @@
         <Effect ref="4" name="Color Wash" id="7" startTime="25050" endTime="25750" palette="3"/>
         <Effect ref="3" name="Color Wash" id="8" startTime="25750" endTime="26500" palette="2"/>
         <Effect ref="4" name="Color Wash" id="9" startTime="26500" endTime="28750" palette="3"/>
-        <Effect ref="2" name="On" id="10" startTime="30425" endTime="30800" palette="0"/>
+        <Effect ref="0" name="On" id="10" startTime="30425" endTime="30800" palette="0"/>
         <Effect ref="5" name="Color Wash" id="11" startTime="31725" endTime="33500" palette="2"/>
         <Effect ref="4" name="Color Wash" id="12" startTime="33500" endTime="35200" palette="3"/>
-        <Effect ref="2" name="On" id="13" startTime="35700" endTime="36000" palette="0"/>
-        <Effect ref="2" name="On" id="14" startTime="36900" endTime="37275" palette="0"/>
-        <Effect ref="2" name="On" id="15" startTime="37325" endTime="38000" palette="0"/>
-        <Effect ref="2" name="On" id="16" startTime="38525" endTime="38900" palette="0"/>
-        <Effect ref="2" name="On" id="17" startTime="39050" endTime="39425" palette="0"/>
-        <Effect ref="2" name="On" id="18" startTime="39650" endTime="40025" palette="0"/>
-        <Effect ref="2" name="On" id="19" startTime="40225" endTime="40600" palette="0"/>
-        <Effect ref="2" name="On" id="20" startTime="40750" endTime="41125" palette="0"/>
-        <Effect ref="2" name="On" id="21" startTime="41350" endTime="41725" palette="0"/>
-        <Effect ref="2" name="On" id="22" startTime="42025" endTime="42275" palette="0"/>
-        <Effect ref="2" name="On" id="23" startTime="42500" endTime="42875" palette="0"/>
-        <Effect ref="2" name="On" id="24" startTime="43175" endTime="43375" palette="0"/>
-        <Effect ref="2" name="On" id="25" startTime="43725" endTime="43975" palette="0"/>
-        <Effect ref="2" name="On" id="26" startTime="44150" endTime="44800" palette="0"/>
-        <Effect ref="2" name="On" id="27" startTime="44850" endTime="45075" palette="0"/>
-        <Effect ref="2" name="On" id="28" startTime="45425" endTime="45675" palette="0"/>
-        <Effect ref="2" name="On" id="29" startTime="45900" endTime="46800" palette="0"/>
-        <Effect ref="2" name="On" id="30" startTime="46825" endTime="47075" palette="0"/>
-        <Effect ref="2" name="On" id="31" startTime="47200" endTime="47575" palette="0"/>
-        <Effect ref="2" name="On" id="32" startTime="47725" endTime="48525" palette="0"/>
-        <Effect ref="2" name="On" id="33" startTime="49325" endTime="49700" palette="0"/>
-        <Effect ref="2" name="On" id="34" startTime="50225" endTime="50475" palette="0"/>
-        <Effect ref="2" name="On" id="35" startTime="50475" endTime="50725" palette="0"/>
-        <Effect ref="2" name="On" id="36" startTime="50725" endTime="51000" palette="0"/>
-        <Effect ref="2" name="On" id="37" startTime="51000" endTime="52000" palette="0"/>
-        <Effect ref="2" name="On" id="38" startTime="52325" endTime="52750" palette="0"/>
-        <Effect ref="2" name="On" id="39" startTime="52750" endTime="53125" palette="0"/>
-        <Effect ref="2" name="On" id="40" startTime="54025" endTime="54400" palette="0"/>
-        <Effect ref="2" name="On" id="41" startTime="54475" endTime="54850" palette="0"/>
-        <Effect ref="2" name="On" id="42" startTime="78425" endTime="80725" palette="0"/>
-        <Effect ref="2" name="On" id="43" startTime="81500" endTime="83675" palette="0"/>
-        <Effect ref="2" name="On" id="44" startTime="84600" endTime="86000" palette="0"/>
-        <Effect ref="2" name="On" id="45" startTime="87000" endTime="89275" palette="0"/>
+        <Effect ref="0" name="On" id="13" startTime="35700" endTime="36000" palette="0"/>
+        <Effect ref="0" name="On" id="14" startTime="36900" endTime="37275" palette="0"/>
+        <Effect ref="0" name="On" id="15" startTime="37325" endTime="38000" palette="0"/>
+        <Effect ref="0" name="On" id="16" startTime="38525" endTime="38900" palette="0"/>
+        <Effect ref="0" name="On" id="17" startTime="39050" endTime="39425" palette="0"/>
+        <Effect ref="0" name="On" id="18" startTime="39650" endTime="40025" palette="0"/>
+        <Effect ref="0" name="On" id="19" startTime="40225" endTime="40600" palette="0"/>
+        <Effect ref="0" name="On" id="20" startTime="40750" endTime="41125" palette="0"/>
+        <Effect ref="0" name="On" id="21" startTime="41350" endTime="41725" palette="0"/>
+        <Effect ref="0" name="On" id="22" startTime="42025" endTime="42275" palette="0"/>
+        <Effect ref="0" name="On" id="23" startTime="42500" endTime="42875" palette="0"/>
+        <Effect ref="0" name="On" id="24" startTime="43175" endTime="43375" palette="0"/>
+        <Effect ref="0" name="On" id="25" startTime="43725" endTime="43975" palette="0"/>
+        <Effect ref="0" name="On" id="26" startTime="44150" endTime="44800" palette="0"/>
+        <Effect ref="0" name="On" id="27" startTime="44850" endTime="45075" palette="0"/>
+        <Effect ref="0" name="On" id="28" startTime="45425" endTime="45675" palette="0"/>
+        <Effect ref="0" name="On" id="29" startTime="45900" endTime="46800" palette="0"/>
+        <Effect ref="0" name="On" id="30" startTime="46825" endTime="47075" palette="0"/>
+        <Effect ref="0" name="On" id="31" startTime="47200" endTime="47575" palette="0"/>
+        <Effect ref="0" name="On" id="32" startTime="47725" endTime="48525" palette="0"/>
+        <Effect ref="0" name="On" id="33" startTime="49325" endTime="49700" palette="0"/>
+        <Effect ref="0" name="On" id="34" startTime="50225" endTime="50475" palette="0"/>
+        <Effect ref="0" name="On" id="35" startTime="50475" endTime="50725" palette="0"/>
+        <Effect ref="0" name="On" id="36" startTime="50725" endTime="51000" palette="0"/>
+        <Effect ref="0" name="On" id="37" startTime="51000" endTime="52000" palette="0"/>
+        <Effect ref="0" name="On" id="38" startTime="52325" endTime="52750" palette="0"/>
+        <Effect ref="0" name="On" id="39" startTime="52750" endTime="53125" palette="0"/>
+        <Effect ref="0" name="On" id="40" startTime="54025" endTime="54400" palette="0"/>
+        <Effect ref="0" name="On" id="41" startTime="54475" endTime="54850" palette="0"/>
+        <Effect ref="0" name="On" id="42" startTime="78425" endTime="80725" palette="0"/>
+        <Effect ref="0" name="On" id="43" startTime="81500" endTime="83675" palette="0"/>
+        <Effect ref="0" name="On" id="44" startTime="84500" endTime="86500" palette="0"/>
+        <Effect ref="0" name="On" id="45" startTime="87075" endTime="89150" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Trees GRP">
@@ -1682,8 +1690,9 @@
     </Element>
     <Element type="model" name="Hattitude Quartet Spinners GRP">
       <EffectLayer>
-        <Effect ref="1" name="Twinkle" startTime="23000" endTime="23500" palette="1"/>
-        <Effect ref="1" name="Twinkle" id="1" startTime="24550" endTime="25050" palette="1"/>
+        <Effect ref="2" name="Twinkle" startTime="23000" endTime="23500" palette="1"/>
+        <Effect ref="2" name="Twinkle" id="1" startTime="24550" endTime="25050" palette="1"/>
+        <Effect ref="2" name="Twinkle" id="4" startTime="30425" endTime="30850" palette="1"/>
       </EffectLayer>
       <EffectLayer>
         <Effect ref="6" name="Pinwheel" startTime="1250" endTime="7675" palette="5"/>
@@ -1728,8 +1737,8 @@
     </Element>
     <Element type="model" name="Hattitude Quartet">
       <EffectLayer>
-        <Effect ref="10" name="Faces" id="1" startTime="24550" endTime="28175" palette="8"/>
-        <Effect ref="10" name="Faces" id="2" startTime="65725" endTime="78400" palette="8"/>
+        <Effect ref="10" name="Faces" startTime="24550" endTime="28175" palette="8"/>
+        <Effect ref="10" name="Faces" id="1" startTime="65725" endTime="78400" palette="8"/>
       </EffectLayer>
       <SubModelEffectLayer name="Bell 1">
         <Effect ref="3" name="On" startTime="19325" endTime="21300" palette="9"/>
@@ -1746,11 +1755,11 @@
     </Element>
     <Element type="model" name="Icicles-Lower-LG">
       <EffectLayer>
-        <Effect ref="11" name="Snowflakes" startTime="0" endTime="24550" palette="8"/>
+        <Effect ref="11" name="Snowflakes" selected="1" startTime="0" endTime="116400" palette="8"/>
       </EffectLayer>
       <EffectLayer>
-        <Effect ref="1" name="Twinkle" startTime="23000" endTime="23500" palette="1"/>
-        <Effect ref="1" name="Twinkle" selected="1" id="1" startTime="24550" endTime="25050" palette="1"/>
+        <Effect ref="2" name="Twinkle" startTime="23000" endTime="23500" palette="1"/>
+        <Effect ref="2" name="Twinkle" id="1" startTime="24550" endTime="25050" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="128x32-Matrix">
@@ -1796,8 +1805,14 @@
     <Element type="model" name="Eave 1">
       <EffectLayer/>
     </Element>
+    <Element type="model" name="All Pixels No Flood GRP">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Icicles GRP">
+      <EffectLayer/>
+    </Element>
   </ElementEffects>
-  <lastView>0</lastView>
+  <lastView>7</lastView>
   <TimingTags>
     <Tag number="0" position="-1"/>
     <Tag number="1" position="-1"/>
