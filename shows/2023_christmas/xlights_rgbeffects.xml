@@ -1080,7 +1080,7 @@
   </views>
   <palettes/>
   <modelGroups>
-    <modelGroup selected="0" name="Eaves GRP" LayoutGroup="Default" models="Eave 1,Icicles-Right/Eave,Icicles-Left/Eave,Icicles-Lower-LG/Eave 2" GridSize="400" XCentreOffset="0" YCentreOffset="0" DefaultCamera="2D" layout="minimalGrid" TagColour="black"/>
+    <modelGroup selected="0" name="Eaves GRP" LayoutGroup="Default" models="Icicles-Right/Eave,Icicles-Left/Eave" GridSize="400" XCentreOffset="0" YCentreOffset="0" DefaultCamera="2D" layout="minimalGrid" TagColour="black"/>
     <modelGroup selected="0" name="Verts GRP" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Vert 1,Vert 2"/>
     <modelGroup selected="0" name="GE Pumpkin Stack GRP" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="GE Pumpkin Stack Snowman"/>
     <modelGroup selected="0" name="GE Singing Bulb 1 GRP" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="GE Singing Bulb 1"/>
@@ -1088,7 +1088,7 @@
     <modelGroup selected="0" name="Floods GRP" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Flood 1,Flood 2"/>
     <modelGroup selected="0" name="Trees GRP" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Tree A1,Tree A2,Tree A3"/>
     <modelGroup selected="0" name="Strobes GRP" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="DMX Controller"/>
-    <modelGroup selected="0" name="All Pixels GRP" LayoutGroup="Default" GridSize="400" XCentreOffset="0" YCentreOffset="0" DefaultCamera="2D" layout="minimalGrid" TagColour="black" models="Flood 1,Flood 2,Vert 1,Eave 1,Vert 2,GE Pumpkin Stack Snowman,Icicles-Lower-LG,Hattitude Quartet,GE Singing Bulb 2,GE Singing Bulb 1"/>
+    <modelGroup selected="0" name="All Pixels GRP" LayoutGroup="Default" models="Icicles-Left,Icicles-Right,Vert 1,Vert 2,Flood 1,Flood 2,Hattitude Quartet,GE Singing Bulb 2,GE Singing Bulb 1" GridSize="400" XCentreOffset="0" YCentreOffset="0" DefaultCamera="2D" layout="minimalGrid" TagColour="black"/>
     <modelGroup selected="0" LayoutGroup="Default" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" name="GE Hattitude Quartet Bells GRP" models="Hattitude Quartet/Bell 1,Hattitude Quartet/Bell 2,Hattitude Quartet/Bell 3"/>
     <modelGroup selected="0" LayoutGroup="Default" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" TagColour="black" name="GE Hattitude Quartet Eyeball GRP" models="Hattitude Quartet/Eyeball Outline,Hattitude Quartet/Eyeball Iris,Hattitude Quartet/Eyeball Pupil"/>
     <modelGroup selected="0" LayoutGroup="Default" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" name="GE Hattitude Quartet Hook CCW GRP" models="Hattitude Quartet/Hook CCW 01,Hattitude Quartet/Hook CCW 02,Hattitude Quartet/Hook CCW 03,Hattitude Quartet/Hook CCW 04,Hattitude Quartet/Hook CCW 05,Hattitude Quartet/Hook CCW 06,Hattitude Quartet/Hook CCW 07,Hattitude Quartet/Hook CCW 08,Hattitude Quartet/Hook CCW 09,Hattitude Quartet/Hook CCW 10,Hattitude Quartet/Hook CCW 11,Hattitude Quartet/Hook CCW 12,Hattitude Quartet/Hook CCW 13,Hattitude Quartet/Hook CCW 14,Hattitude Quartet/Hook CCW 15,Hattitude Quartet/Hook CCW 16,Hattitude Quartet/Hook CCW 17,Hattitude Quartet/Hook CCW 18,Hattitude Quartet/Hook CCW 19,Hattitude Quartet/Hook CCW 20,Hattitude Quartet/Hook CCW 21,Hattitude Quartet/Hook CCW 22,Hattitude Quartet/Hook CCW 23,Hattitude Quartet/Hook CCW 24"/>
@@ -1108,9 +1108,9 @@
     <modelGroup selected="0" LayoutGroup="Default" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" name="Hattitude Quartet Spoke GRP" models="Hattitude Quartet/Spoke 1,Hattitude Quartet/Spoke 2,Hattitude Quartet/Spoke 3,Hattitude Quartet/Spoke 4,Hattitude Quartet/Spoke 5,Hattitude Quartet/Spoke 6,Hattitude Quartet/Spoke 7,Hattitude Quartet/Spoke 8,Hattitude Quartet/Spoke 9,Hattitude Quartet/Spoke 10,Hattitude Quartet/Spoke 11,Hattitude Quartet/Spoke 12,Hattitude Quartet/Spoke 13,Hattitude Quartet/Spoke 14,Hattitude Quartet/Spoke 15,Hattitude Quartet/Spoke 16,Hattitude Quartet/Spoke 17,Hattitude Quartet/Spoke 18,Hattitude Quartet/Spoke 19,Hattitude Quartet/Spoke 20,Hattitude Quartet/Spoke 21,Hattitude Quartet/Spoke 22,Hattitude Quartet/Spoke 23,Hattitude Quartet/Spoke 24"/>
     <modelGroup selected="0" LayoutGroup="Default" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" name="Hattitude Quartets GRP" models="Hattitude Quartet"/>
     <modelGroup selected="0" LayoutGroup="Default" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" TagColour="black" name="Mega Spinner 2 Spokes" models="Hattitude Quartet/Spoke 1,Hattitude Quartet/Spoke 2,Hattitude Quartet/Spoke 4,Hattitude Quartet/Spoke 5,Hattitude Quartet/Spoke 6,Hattitude Quartet/Spoke 7,Hattitude Quartet/Spoke 3,Hattitude Quartet/Spoke 8,Hattitude Quartet/Spoke 9,Hattitude Quartet/Spoke 10,Hattitude Quartet/Spoke 11,Hattitude Quartet/Spoke 12,Hattitude Quartet/Spoke 13,Hattitude Quartet/Spoke 14,Hattitude Quartet/Spoke 15,Hattitude Quartet/Spoke 16,Hattitude Quartet/Spoke 17,Hattitude Quartet/Spoke 18,Hattitude Quartet/Spoke 19,Hattitude Quartet/Spoke 20,Hattitude Quartet/Spoke 21,Hattitude Quartet/Spoke 22,Hattitude Quartet/Spoke 23,Hattitude Quartet/Spoke 24"/>
-    <modelGroup selected="0" name="Singing Faces GRP" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="GE Pumpkin Stack Snowman,GE Singing Bulb 1,GE Singing Bulb 2,Hattitude Quartet"/>
-    <modelGroup selected="0" name="Icicles GRP" LayoutGroup="Default" models="Icicles-Right/Icicles,Icicles-Left/Icicles,Icicles-Lower-LG/Icicles 1" GridSize="400" XCentreOffset="0" YCentreOffset="0" DefaultCamera="2D" layout="minimalGrid" TagColour="black"/>
-    <modelGroup selected="0" LayoutGroup="Default" name="All Pixels No Flood GRP" models="Icicles-Lower-LG,Vert 1,Vert 2,Eave 1,Hattitude Quartet,GE Singing Bulb 2,GE Singing Bulb 1" GridSize="400" XCentreOffset="0" YCentreOffset="0" DefaultCamera="2D" layout="minimalGrid" TagColour="black"/>
+    <modelGroup selected="0" name="Singing Faces GRP" LayoutGroup="Default" models="GE Singing Bulb 1,GE Singing Bulb 2,Hattitude Quartet" GridSize="400" XCentreOffset="0" YCentreOffset="0" DefaultCamera="2D" layout="minimalGrid" TagColour="black"/>
+    <modelGroup selected="0" name="Icicles GRP" LayoutGroup="Default" models="Icicles-Right/Icicles,Icicles-Left/Icicles" GridSize="400" XCentreOffset="0" YCentreOffset="0" DefaultCamera="2D" layout="minimalGrid" TagColour="black"/>
+    <modelGroup selected="0" LayoutGroup="Default" name="All Pixels No Flood GRP" models="Icicles-Left,Icicles-Right,Vert 1,Vert 2,Hattitude Quartet,GE Singing Bulb 2,GE Singing Bulb 1" GridSize="400" XCentreOffset="0" YCentreOffset="0" DefaultCamera="2D" layout="minimalGrid" TagColour="black"/>
   </modelGroups>
   <layoutGroups/>
   <perspectives current="Dual Screen - Full Preview">
@@ -1127,9 +1127,9 @@
     <backgroundImage value=""/>
     <Display2DBoundingBox value="0"/>
     <Display2DCenter0 value="0"/>
+    <defaultSeqView value=""/>
     <previewWidth value="1280"/>
     <previewHeight value="720"/>
-    <defaultSeqView value=""/>
   </settings>
   <colors>
     <DisabledEffect Red="200" Green="200" Blue="0"/>
