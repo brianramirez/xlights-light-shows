@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2023.21</version>
+    <version>2023.20</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
@@ -12,7 +12,7 @@
     <comment></comment>
     <sequenceTiming>25 ms</sequenceTiming>
     <sequenceType>Media</sequenceType>
-    <mediaFile>/Users/bramirez/Documents/xlights/audio/christmas/normalized/250-thousand-lights-speech-with-effects.mp3</mediaFile>
+    <mediaFile>C:\Users\brian\Documents\xlights\audio\christmas\normalized\250-thousand-lights-speech-with-effects.mp3</mediaFile>
     <sequenceDuration>53.720</sequenceDuration>
     <imageDir/>
   </head>
@@ -22,7 +22,7 @@
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1</ColorPalette>
-    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette7=1</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FF0080,C_BUTTON_Palette2=#00FFFF,C_BUTTON_Palette3=#8000FF,C_BUTTON_Palette4=#FFFF00,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FF0080,C_BUTTON_Palette2=#FFFFFF,C_BUTTON_Palette3=#80FF00,C_BUTTON_Palette4=#FFFF00,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1</ColorPalette>
@@ -31,9 +31,9 @@
     <Effect>B_CHOICE_BufferStyle=Overlay - Centered,E_CHECKBOX_PRE_2017_7=0,E_CHECKBOX_Shimmer_Use_All_Colors=1,E_SLIDER_Shimmer_Duty_Factor=84,E_TEXTCTRL_Shimmer_Cycles=29.2</Effect>
     <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_EyeBlinkFrequency=Normal,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Quartet Tree,E_CHOICE_Faces_TimingTrack=LYRICS</Effect>
     <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_EyeBlinkFrequency=Normal,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Quartet Bulb,E_CHOICE_Faces_TimingTrack=LYRICS</Effect>
-    <Effect>E_CHECKBOX_Marquee_PixelOffsets=0,E_CHECKBOX_Marquee_Reverse=0,E_CHECKBOX_Marquee_WrapX=0,E_CHECKBOX_Marquee_WrapY=0,E_NOTEBOOK_Marquee=Settings,E_SLIDER_MarqueeXC=0,E_SLIDER_MarqueeYC=0,E_SLIDER_Marquee_Band_Size=20,E_SLIDER_Marquee_ScaleX=100,E_SLIDER_Marquee_ScaleY=100,E_SLIDER_Marquee_Skip_Size=0,E_SLIDER_Marquee_Speed=3,E_SLIDER_Marquee_Stagger=0,E_SLIDER_Marquee_Start=0,E_SLIDER_Marquee_Thickness=2</Effect>
-    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=10-12x12 Bold,E_FONTPICKER_Text_Font=.applesystemuifont utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=TUNE TO 91.7FM,E_TEXTCTRL_Text_Speed=10</Effect>
-    <Effect>E_CHOICE_Falling=Falling,E_SLIDER_Snowflakes_Count=10,E_SLIDER_Snowflakes_Speed=10,E_SLIDER_Snowflakes_Type=3,E_SLIDER_Snowflakes_WarmupFrames=0</Effect>
+    <Effect>E_CHECKBOX_Marquee_PixelOffsets=0,E_CHECKBOX_Marquee_Reverse=0,E_CHECKBOX_Marquee_WrapX=0,E_CHECKBOX_Marquee_WrapY=0,E_NOTEBOOK_Marquee=Settings,E_SLIDER_MarqueeXC=0,E_SLIDER_MarqueeYC=0,E_SLIDER_Marquee_Band_Size=20,E_SLIDER_Marquee_ScaleX=100,E_SLIDER_Marquee_ScaleY=100,E_SLIDER_Marquee_Skip_Size=0,E_SLIDER_Marquee_Speed=2,E_SLIDER_Marquee_Stagger=0,E_SLIDER_Marquee_Start=0,E_SLIDER_Marquee_Thickness=2</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=10-12x12 Bold,E_FONTPICKER_Text_Font='segoe ui',E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=TUNE TO 96.1FM,E_TEXTCTRL_Text_Speed=10</Effect>
+    <Effect>E_CHOICE_Falling=Falling,E_SLIDER_Snowflakes_Count=38,E_SLIDER_Snowflakes_Speed=10,E_SLIDER_Snowflakes_Type=1,E_SLIDER_Snowflakes_WarmupFrames=0</Effect>
     <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_EyeBlinkFrequency=Normal,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Upright Bulb - Custom,E_CHOICE_Faces_TimingTrack=DRUMROLL</Effect>
     <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_EyeBlinkFrequency=Normal,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Upright Bulb - Custom,E_CHOICE_Faces_TimingTrack=GRANDMA</Effect>
     <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_EyeBlinkFrequency=Normal,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Upright Bulb,E_CHOICE_Faces_TimingTrack=GRANDPA</Effect>
@@ -737,13 +737,13 @@
     <Element type="model" name="128x32-Matrix">
       <EffectLayer/>
       <EffectLayer>
-        <Effect ref="3" name="Marquee" startTime="0" endTime="53800" palette="1"/>
+        <Effect ref="3" name="Marquee" startTime="0" endTime="54175" palette="1"/>
       </EffectLayer>
       <EffectLayer>
-        <Effect ref="4" name="Text" startTime="0" endTime="53800" palette="3"/>
+        <Effect ref="4" name="Text" selected="1" startTime="0" endTime="54175" palette="3"/>
       </EffectLayer>
       <EffectLayer>
-        <Effect ref="5" name="Snowflakes" selected="1" startTime="0" endTime="53800" palette="4"/>
+        <Effect ref="5" name="Snowflakes" startTime="0" endTime="54175" palette="4"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Vert 2">
@@ -795,7 +795,7 @@
       <EffectLayer/>
     </Element>
   </ElementEffects>
-  <lastView>7</lastView>
+  <lastView>4</lastView>
   <TimingTags>
     <Tag number="0" position="-1"/>
     <Tag number="1" position="-1"/>

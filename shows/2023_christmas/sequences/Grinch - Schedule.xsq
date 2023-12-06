@@ -26,9 +26,10 @@
     <ColorPalette>C_BUTTON_Palette1=#FF00FF,C_BUTTON_Palette2=#80FFFF,C_BUTTON_Palette3=#FF0000,C_BUTTON_Palette4=#FFFF00,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1</ColorPalette>
   </ColorPalettes>
   <EffectDB>
+    <Effect>T_TEXTCTRL_Fadein=2.0</Effect>
     <Effect></Effect>
-    <Effect>E_CHECKBOX_Spirals_3D=0,E_CHECKBOX_Spirals_Blend=1,E_CHECKBOX_Spirals_Grow=1,E_CHECKBOX_Spirals_Shrink=0,E_SLIDER_Spirals_Count=3,E_SLIDER_Spirals_Rotation=95,E_SLIDER_Spirals_Thickness=50,E_TEXTCTRL_Spirals_Movement=1.0,T_TEXTCTRL_Fadein= </Effect>
-    <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_EyeBlinkFrequency=Normal,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Quartet Tree Tall,E_CHOICE_Faces_TimingTrack=GRINCH</Effect>
+    <Effect>E_CHECKBOX_Spirals_3D=0,E_CHECKBOX_Spirals_Blend=1,E_CHECKBOX_Spirals_Grow=1,E_CHECKBOX_Spirals_Shrink=0,E_SLIDER_Spirals_Count=3,E_SLIDER_Spirals_Rotation=95,E_SLIDER_Spirals_Thickness=50,E_TEXTCTRL_Spirals_Movement=1.0,T_TEXTCTRL_Fadein=2.0</Effect>
+    <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_EyeBlinkFrequency=Normal,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Shrek,E_CHOICE_Faces_TimingTrack=GRINCH</Effect>
     <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_EyeBlinkFrequency=Normal,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Upright Bulb - Custom,E_CHOICE_Faces_TimingTrack=DOG,T_TEXTCTRL_Fadein=1.00,T_TEXTCTRL_Fadeout=1.00</Effect>
   </EffectDB>
   <DataLayers>
@@ -84,6 +85,7 @@
     <Element collapsed="0" type="model" name="Tree A3" visible="1"/>
     <Element collapsed="0" type="model" name="Tree A1" visible="1"/>
     <Element collapsed="0" type="model" name="Eave 1" visible="1"/>
+    <Element collapsed="0" type="model" name="All Pixels No Faces GRP" visible="1"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="New Timing">
@@ -694,26 +696,26 @@
     </Element>
     <Element type="model" name="Eaves GRP">
       <EffectLayer>
-        <Effect ref="0" name="Color Wash" startTime="0" endTime="10000" palette="0"/>
-        <Effect ref="0" name="Color Wash" id="1" startTime="10000" endTime="20000" palette="1"/>
-        <Effect ref="0" name="Color Wash" id="2" startTime="20000" endTime="30000" palette="0"/>
-        <Effect ref="0" name="Color Wash" id="3" startTime="30000" endTime="40000" palette="1"/>
-        <Effect ref="0" name="Color Wash" id="4" startTime="40000" endTime="50000" palette="0"/>
-        <Effect ref="0" name="Color Wash" id="5" startTime="50000" endTime="60000" palette="1"/>
-        <Effect ref="0" name="Color Wash" id="6" startTime="60000" endTime="70000" palette="0"/>
-        <Effect ref="0" name="Color Wash" id="7" startTime="70000" endTime="75075" palette="1"/>
+        <Effect ref="0" name="Color Wash" selected="1" startTime="0" endTime="10000" palette="0"/>
+        <Effect ref="1" name="Color Wash" id="1" startTime="10000" endTime="20000" palette="1"/>
+        <Effect ref="1" name="Color Wash" id="2" startTime="20000" endTime="30000" palette="0"/>
+        <Effect ref="1" name="Color Wash" id="3" startTime="30000" endTime="40000" palette="1"/>
+        <Effect ref="1" name="Color Wash" id="4" startTime="40000" endTime="50000" palette="0"/>
+        <Effect ref="1" name="Color Wash" id="5" startTime="50000" endTime="60000" palette="1"/>
+        <Effect ref="1" name="Color Wash" id="6" startTime="60000" endTime="70000" palette="0"/>
+        <Effect ref="1" name="Color Wash" id="7" startTime="70000" endTime="75075" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Verts GRP">
       <EffectLayer>
-        <Effect ref="0" name="Color Wash" startTime="0" endTime="10000" palette="0"/>
-        <Effect ref="0" name="Color Wash" id="1" startTime="10000" endTime="20000" palette="1"/>
-        <Effect ref="0" name="Color Wash" id="2" startTime="20000" endTime="30000" palette="0"/>
-        <Effect ref="0" name="Color Wash" id="3" startTime="30000" endTime="40000" palette="1"/>
-        <Effect ref="0" name="Color Wash" id="4" startTime="40000" endTime="50000" palette="0"/>
-        <Effect ref="0" name="Color Wash" id="5" startTime="50000" endTime="60000" palette="1"/>
-        <Effect ref="0" name="Color Wash" id="6" startTime="60000" endTime="70000" palette="0"/>
-        <Effect ref="0" name="Color Wash" selected="1" id="7" startTime="70000" endTime="75075" palette="1"/>
+        <Effect ref="0" name="Color Wash" selected="1" startTime="0" endTime="10000" palette="0"/>
+        <Effect ref="1" name="Color Wash" id="1" startTime="10000" endTime="20000" palette="1"/>
+        <Effect ref="1" name="Color Wash" id="2" startTime="20000" endTime="30000" palette="0"/>
+        <Effect ref="1" name="Color Wash" id="3" startTime="30000" endTime="40000" palette="1"/>
+        <Effect ref="1" name="Color Wash" id="4" startTime="40000" endTime="50000" palette="0"/>
+        <Effect ref="1" name="Color Wash" id="5" startTime="50000" endTime="60000" palette="1"/>
+        <Effect ref="1" name="Color Wash" id="6" startTime="60000" endTime="70000" palette="0"/>
+        <Effect ref="1" name="Color Wash" id="7" startTime="70000" endTime="75075" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GE Pumpkin Stack GRP">
@@ -727,14 +729,14 @@
     </Element>
     <Element type="model" name="Floods GRP">
       <EffectLayer>
-        <Effect ref="0" name="Color Wash" startTime="0" endTime="10000" palette="0"/>
-        <Effect ref="0" name="Color Wash" id="1" startTime="10000" endTime="20000" palette="1"/>
-        <Effect ref="0" name="Color Wash" id="2" startTime="20000" endTime="30000" palette="0"/>
-        <Effect ref="0" name="Color Wash" id="3" startTime="30000" endTime="40000" palette="1"/>
-        <Effect ref="0" name="Color Wash" id="4" startTime="40000" endTime="50000" palette="0"/>
-        <Effect ref="0" name="Color Wash" id="5" startTime="50000" endTime="60000" palette="1"/>
-        <Effect ref="0" name="Color Wash" id="6" startTime="60000" endTime="70000" palette="0"/>
-        <Effect ref="0" name="Color Wash" id="7" startTime="70000" endTime="75075" palette="1"/>
+        <Effect ref="0" name="Color Wash" selected="1" startTime="0" endTime="10000" palette="0"/>
+        <Effect ref="1" name="Color Wash" id="1" startTime="10000" endTime="20000" palette="1"/>
+        <Effect ref="1" name="Color Wash" id="2" startTime="20000" endTime="30000" palette="0"/>
+        <Effect ref="1" name="Color Wash" id="3" startTime="30000" endTime="40000" palette="1"/>
+        <Effect ref="1" name="Color Wash" id="4" startTime="40000" endTime="50000" palette="0"/>
+        <Effect ref="1" name="Color Wash" id="5" startTime="50000" endTime="60000" palette="1"/>
+        <Effect ref="1" name="Color Wash" id="6" startTime="60000" endTime="70000" palette="0"/>
+        <Effect ref="1" name="Color Wash" id="7" startTime="70000" endTime="75075" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Trees GRP">
@@ -808,7 +810,7 @@
     </Element>
     <Element type="model" name="Icicles GRP">
       <EffectLayer>
-        <Effect ref="1" name="Spirals" startTime="0" endTime="75050" palette="2"/>
+        <Effect ref="2" name="Spirals" selected="1" startTime="0" endTime="75050" palette="2"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="All Pixels No Flood GRP">
@@ -816,7 +818,7 @@
     </Element>
     <Element type="model" name="Hattitude Quartet">
       <EffectLayer>
-        <Effect ref="2" name="Faces" startTime="2050" endTime="75000" palette="3"/>
+        <Effect ref="3" name="Faces" startTime="2050" endTime="75000" palette="3"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Icicles-Lower-LG">
@@ -845,7 +847,7 @@
     </Element>
     <Element type="model" name="GE Singing Bulb 1">
       <EffectLayer>
-        <Effect ref="3" name="Faces" startTime="47450" endTime="56650" palette="4"/>
+        <Effect ref="4" name="Faces" startTime="47450" endTime="56650" palette="4"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GE Singing Bulb 2">
@@ -863,8 +865,11 @@
     <Element type="model" name="Eave 1">
       <EffectLayer/>
     </Element>
+    <Element type="model" name="All Pixels No Faces GRP">
+      <EffectLayer/>
+    </Element>
   </ElementEffects>
-  <lastView>7</lastView>
+  <lastView>5</lastView>
   <TimingTags>
     <Tag number="0" position="-1"/>
     <Tag number="1" position="-1"/>
