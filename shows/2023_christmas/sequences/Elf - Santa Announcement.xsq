@@ -40,7 +40,7 @@
     <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_EyeBlinkFrequency=Normal,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Upright Bulb - Custom,E_CHOICE_Faces_TimingTrack=PERSON 2,T_TEXTCTRL_Fadein=2.00,T_TEXTCTRL_Fadeout=2</Effect>
     <Effect>B_CHOICE_BufferStyle=Overlay - Centered,E_CHECKBOX_Mirror_Wave=0,E_CHOICE_Fill_Colors=Palette,E_CHOICE_Wave_Direction=Right to Left,E_CHOICE_Wave_Type=Sine,E_SLIDER_Number_Waves=1539,E_SLIDER_Thickness_Percentage=65,E_SLIDER_Wave_Height=85,E_SLIDER_Wave_YOffset=0,E_TEXTCTRL_Wave_Speed=10,T_TEXTCTRL_Fadein=2.0,T_TEXTCTRL_Fadeout=2.0</Effect>
     <Effect>E_CHECKBOX_Marquee_PixelOffsets=0,E_CHECKBOX_Marquee_Reverse=0,E_CHECKBOX_Marquee_WrapX=0,E_CHECKBOX_Marquee_WrapY=0,E_NOTEBOOK_Marquee=Settings,E_SLIDER_MarqueeXC=0,E_SLIDER_MarqueeYC=0,E_SLIDER_Marquee_Band_Size=25,E_SLIDER_Marquee_ScaleX=100,E_SLIDER_Marquee_ScaleY=100,E_SLIDER_Marquee_Skip_Size=0,E_SLIDER_Marquee_Speed=3,E_SLIDER_Marquee_Stagger=0,E_SLIDER_Marquee_Start=0,E_SLIDER_Marquee_Thickness=2</Effect>
-    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=10-12x12 Bold,E_FONTPICKER_Text_Font=bold 'segoe ui' 18 windows-1252,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=TUNE TO 91.9FM,E_TEXTCTRL_Text_Speed=10</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=10-12x12 Bold,E_FILEPICKERCTRL_Text_File=,E_FONTPICKER_Text_Font=bold 'segoe ui' 18 windows-1252,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=TUNE TO 91.9FM,E_TEXTCTRL_Text_Speed=10</Effect>
     <Effect>E_CHOICE_Falling=Driving,E_SLIDER_Snowflakes_Count=5,E_SLIDER_Snowflakes_Speed=10,E_SLIDER_Snowflakes_Type=1</Effect>
     <Effect>B_CHOICE_BufferStyle=Overlay - Centered,E_CHOICE_Falling=Falling,E_SLIDER_Snowflakes_Count=100,E_SLIDER_Snowflakes_Speed=10,E_SLIDER_Snowflakes_Type=1,E_SLIDER_Snowflakes_WarmupFrames=0,T_TEXTCTRL_Fadein=2.00,T_TEXTCTRL_Fadeout=2.0</Effect>
   </EffectDB>
@@ -99,6 +99,7 @@
     <Element collapsed="0" type="model" name="128x32-Matrix" visible="1"/>
     <Element collapsed="0" type="model" name="All Pixels No Flood GRP" visible="1"/>
     <Element collapsed="0" type="model" name="All Pixels No Faces GRP" visible="1"/>
+    <Element collapsed="0" type="model" name="GE Who Pup" visible="1"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="New Timing">
@@ -778,7 +779,7 @@
         <Effect ref="1" name="Faces" startTime="0" endTime="58700" palette="1"/>
       </EffectLayer>
       <SubModelEffectLayer name="Outer Ring">
-        <Effect ref="2" name="Spirals" selected="1" startTime="0" endTime="5000" palette="1"/>
+        <Effect ref="2" name="Spirals" startTime="0" endTime="5000" palette="1"/>
         <Effect ref="3" name="Spirals" id="1" startTime="5000" endTime="10000" palette="1"/>
         <Effect ref="4" name="Spirals" id="2" startTime="10000" endTime="15000" palette="1"/>
         <Effect ref="3" name="Spirals" id="3" startTime="15000" endTime="20000" palette="1"/>
@@ -824,7 +825,7 @@
     </Element>
     <Element type="model" name="GE Singing Bulb 2">
       <EffectLayer>
-        <Effect ref="8" name="Faces" selected="1" startTime="0" endTime="58700" palette="5"/>
+        <Effect ref="8" name="Faces" startTime="0" endTime="58700" palette="5"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Tree A2">
@@ -847,7 +848,7 @@
     <Element type="model" name="128x32-Matrix">
       <EffectLayer/>
       <EffectLayer>
-        <Effect ref="10" name="Marquee" selected="1" startTime="0" endTime="58650" palette="1"/>
+        <Effect ref="10" name="Marquee" startTime="0" endTime="58650" palette="1"/>
       </EffectLayer>
       <EffectLayer>
         <Effect ref="11" name="Text" startTime="0" endTime="58650" palette="6"/>
@@ -864,8 +865,11 @@
     <Element type="model" name="All Pixels No Faces GRP">
       <EffectLayer/>
     </Element>
+    <Element type="model" name="GE Who Pup">
+      <EffectLayer/>
+    </Element>
   </ElementEffects>
-  <lastView>5</lastView>
+  <lastView>6</lastView>
   <TimingTags>
     <Tag number="0" position="-1"/>
     <Tag number="1" position="-1"/>

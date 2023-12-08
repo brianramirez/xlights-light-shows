@@ -56,9 +56,9 @@
   <keybinding keycode="." alt="FALSE" control="FALSE" rawControl="TRUE" shift="FALSE" type="MARK_SPOT"/>
   <keybinding keycode="/" alt="FALSE" control="FALSE" rawControl="TRUE" shift="FALSE" type="RETURN_TO_SPOT"/>
   <keybinding keycode="" alt="FALSE" control="TRUE" shift="FALSE" type="EFFECT_DESCRIPTION"/>
-  <keybinding keycode="" alt="TRUE" control="TRUE" shift="FALSE" type="EFFECT_ALIGN_START"/>
-  <keybinding keycode="" alt="TRUE" control="TRUE" shift="FALSE" type="EFFECT_ALIGN_END"/>
-  <keybinding keycode="" alt="TRUE" control="TRUE" shift="FALSE" type="EFFECT_ALIGN_BOTH"/>
+  <keybinding keycode="[" alt="FALSE" control="TRUE" shift="TRUE" type="EFFECT_ALIGN_START"/>
+  <keybinding keycode="]" alt="FALSE" control="TRUE" shift="TRUE" type="EFFECT_ALIGN_END"/>
+  <keybinding keycode="\" alt="FALSE" control="TRUE" shift="TRUE" type="EFFECT_ALIGN_BOTH"/>
   <keybinding keycode="I" alt="FALSE" control="TRUE" shift="TRUE" type="INSERT_LAYER_ABOVE"/>
   <keybinding keycode="A" alt="FALSE" control="TRUE" shift="TRUE" type="INSERT_LAYER_BELOW"/>
   <keybinding keycode="X" alt="FALSE" control="TRUE" shift="TRUE" type="TOGGLE_ELEMENT_EXPAND"/>
@@ -119,4 +119,12 @@
   <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="MODEL_ALIGN_FRONTS"/>
   <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="MODEL_ALIGN_GROUND"/>
   <keybinding keycode="S" alt="FALSE" control="TRUE" shift="TRUE" type="EFFECT" effect="SingleStrand" xLightsVersion="2020.15"></keybinding>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="ZOOM_SEL"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="MODEL_TOGGLE"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="MODEL_DISABLE"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="MODEL_ENABLE"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT_TOGGLE"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT_DISABLE"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT_ENABLE"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="MODEL_EFFECT_TOGGLE"/>
 </keybindings>
