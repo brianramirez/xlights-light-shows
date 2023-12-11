@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2023.19</version>
+    <version>2023.20</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
@@ -11,24 +11,27 @@
     <MusicURL></MusicURL>
     <comment></comment>
     <sequenceTiming>25 ms</sequenceTiming>
-    <sequenceType>Animation</sequenceType>
-    <mediaFile/>
-    <sequenceDuration>30.000</sequenceDuration>
+    <sequenceType>Media</sequenceType>
+    <mediaFile>C:\Users\brian\Documents\xlights\audio\christmas\normalized\The Grinch Tries Yoga.mp3</mediaFile>
+    <sequenceDuration>16.300</sequenceDuration>
     <imageDir/>
   </head>
   <nextid>1</nextid>
   <Jukebox/>
   <ColorPalettes>
-    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1</ColorPalette>
   </ColorPalettes>
   <EffectDB>
-    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=left,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font='segoe ui' 28 windows-1252,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=6,E_TEXTCTRL_Text=TUNE TO 91.7 FM,E_TEXTCTRL_Text_Speed=10</Effect>
+    <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_EyeBlinkFrequency=Normal,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Quartet Shrek,E_CHOICE_Faces_TimingTrack=LYRICS</Effect>
+    <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_EyeBlinkFrequency=Normal,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Upright Bulb - Custom,E_CHOICE_Faces_TimingTrack=LYRICS</Effect>
   </EffectDB>
   <DataLayers>
-    <DataLayer lor_params="2097253" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+    <DataLayer lor_params="3407922" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
   </DataLayers>
   <DisplayElements>
-    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View,Pumpking Stack View,Halloween,Flood-Strobes,Eaves-Verts" active="1"/>
+    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View,Flood-Strobes,Eaves-Verts,Matrix,Singing Faces,Spinner,Christmas View" active="0"/>
+    <Element collapsed="0" type="timing" name="LYRICS" visible="1" views="Christmas View,Singing Faces" active="1"/>
     <Element collapsed="0" type="model" name="Eaves GRP" visible="1"/>
     <Element collapsed="0" type="model" name="Verts GRP" visible="1"/>
     <Element collapsed="0" type="model" name="GE Pumpkin Stack GRP" visible="1"/>
@@ -57,9 +60,16 @@
     <Element collapsed="0" type="model" name="Hattitude Quartet Spoke GRP" visible="1"/>
     <Element collapsed="0" type="model" name="Hattitude Quartets GRP" visible="1"/>
     <Element collapsed="0" type="model" name="Mega Spinner 2 Spokes" visible="1"/>
+    <Element collapsed="0" type="model" name="Singing Faces GRP" visible="1"/>
+    <Element collapsed="0" type="model" name="Icicles GRP" visible="1"/>
+    <Element collapsed="0" type="model" name="All Pixels No Flood GRP" visible="1"/>
+    <Element collapsed="0" type="model" name="All Pixels No Faces GRP" visible="1"/>
+    <Element collapsed="0" type="model" name="GE Who Pup" visible="1"/>
+    <Element collapsed="0" type="model" name="Icicles-Left" visible="1"/>
+    <Element collapsed="0" type="model" name="Icicles-Right" visible="1"/>
     <Element collapsed="0" type="model" name="Hattitude Quartet" visible="1"/>
     <Element collapsed="0" type="model" name="Icicles-Lower-LG" visible="1"/>
-    <Element collapsed="0" type="model" name="Matrix" visible="1"/>
+    <Element collapsed="0" type="model" name="128x32-Matrix" visible="1"/>
     <Element collapsed="0" type="model" name="Vert 2" visible="1"/>
     <Element collapsed="0" type="model" name="Vert 1" visible="1"/>
     <Element collapsed="0" type="model" name="DMX Controller" visible="1"/>
@@ -76,6 +86,81 @@
   <ElementEffects>
     <Element type="timing" name="New Timing">
       <EffectLayer/>
+    </Element>
+    <Element type="timing" name="LYRICS">
+      <EffectLayer>
+        <Effect label="AND RELEASE ALL OF THE SOUNDS THAT ARE TRAPPED IN YOUR MIND" startTime="0" endTime="4850"></Effect>
+        <Effect label="AHH" startTime="4850" endTime="6200"></Effect>
+        <Effect label="AHH" startTime="6200" endTime="9925"></Effect>
+        <Effect label="" startTime="9925" endTime="11400"></Effect>
+        <Effect label="SIR ARE YOU OKAY" startTime="11400" endTime="14000"></Effect>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect label="AND" startTime="500" endTime="700"></Effect>
+        <Effect label="RELEASE" startTime="700" endTime="1200"></Effect>
+        <Effect label="ALL" startTime="1400" endTime="1850"></Effect>
+        <Effect label="OF" startTime="1850" endTime="2000"></Effect>
+        <Effect label="THE" startTime="2000" endTime="2175"></Effect>
+        <Effect label="SOUNDS" startTime="2175" endTime="2825"></Effect>
+        <Effect label="THAT" startTime="2825" endTime="2925"></Effect>
+        <Effect label="ARE" startTime="2925" endTime="3075"></Effect>
+        <Effect label="TRAPPED" startTime="3075" endTime="3550"></Effect>
+        <Effect label="IN" startTime="3550" endTime="3675"></Effect>
+        <Effect label="YOUR" startTime="3675" endTime="3875"></Effect>
+        <Effect label="MIND" startTime="3875" endTime="4850"></Effect>
+        <Effect label="AHH" startTime="4850" endTime="6200"></Effect>
+        <Effect label="AHH" startTime="6200" endTime="9925"></Effect>
+        <Effect label="SIR" startTime="11400" endTime="11775"></Effect>
+        <Effect label="ARE" startTime="12900" endTime="13075"></Effect>
+        <Effect label="YOU" startTime="13075" endTime="13200"></Effect>
+        <Effect label="OKAY" startTime="13200" endTime="14000"></Effect>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect label="AI" startTime="500" endTime="650"></Effect>
+        <Effect label="etc" startTime="650" endTime="700"></Effect>
+        <Effect label="etc" startTime="700" endTime="750"></Effect>
+        <Effect label="E" startTime="750" endTime="875"></Effect>
+        <Effect label="L" startTime="875" endTime="1025"></Effect>
+        <Effect label="E" startTime="1025" endTime="1150"></Effect>
+        <Effect label="etc" startTime="1150" endTime="1200"></Effect>
+        <Effect label="O" startTime="1400" endTime="1625"></Effect>
+        <Effect label="L" startTime="1625" endTime="1850"></Effect>
+        <Effect label="AI" startTime="1850" endTime="1925"></Effect>
+        <Effect label="FV" startTime="1925" endTime="2000"></Effect>
+        <Effect label="etc" startTime="2000" endTime="2050"></Effect>
+        <Effect label="AI" startTime="2050" endTime="2175"></Effect>
+        <Effect label="etc" startTime="2175" endTime="2225"></Effect>
+        <Effect label="O" startTime="2225" endTime="2775"></Effect>
+        <Effect label="etc" startTime="2775" endTime="2825"></Effect>
+        <Effect label="etc" startTime="2825" endTime="2850"></Effect>
+        <Effect label="AI" startTime="2850" endTime="2900"></Effect>
+        <Effect label="etc" startTime="2900" endTime="2925"></Effect>
+        <Effect label="AI" startTime="2925" endTime="3025"></Effect>
+        <Effect label="etc" startTime="3025" endTime="3075"></Effect>
+        <Effect label="etc" startTime="3075" endTime="3125"></Effect>
+        <Effect label="AI" startTime="3125" endTime="3450"></Effect>
+        <Effect label="MBP" startTime="3450" endTime="3500"></Effect>
+        <Effect label="etc" startTime="3500" endTime="3550"></Effect>
+        <Effect label="AI" startTime="3550" endTime="3625"></Effect>
+        <Effect label="etc" startTime="3625" endTime="3675"></Effect>
+        <Effect label="etc" startTime="3675" endTime="3725"></Effect>
+        <Effect label="O" startTime="3725" endTime="3825"></Effect>
+        <Effect label="etc" startTime="3825" endTime="3875"></Effect>
+        <Effect label="MBP" startTime="3875" endTime="3925"></Effect>
+        <Effect label="AI" startTime="3925" endTime="4800"></Effect>
+        <Effect label="etc" startTime="4800" endTime="4850"></Effect>
+        <Effect label="AI" startTime="4850" endTime="6200"></Effect>
+        <Effect label="AI" startTime="6200" endTime="9925"></Effect>
+        <Effect label="etc" startTime="11400" endTime="11450"></Effect>
+        <Effect label="E" startTime="11450" endTime="11775"></Effect>
+        <Effect label="AI" startTime="12900" endTime="13025"></Effect>
+        <Effect label="etc" startTime="13025" endTime="13075"></Effect>
+        <Effect label="etc" startTime="13075" endTime="13125"></Effect>
+        <Effect label="U" startTime="13125" endTime="13200"></Effect>
+        <Effect label="O" startTime="13200" endTime="13575"></Effect>
+        <Effect label="etc" startTime="13575" endTime="13625"></Effect>
+        <Effect label="E" startTime="13625" endTime="14000"></Effect>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Eaves GRP">
       <EffectLayer/>
@@ -161,16 +246,37 @@
     <Element type="model" name="Mega Spinner 2 Spokes">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Hattitude Quartet">
+    <Element type="model" name="Singing Faces GRP">
       <EffectLayer/>
+    </Element>
+    <Element type="model" name="Icicles GRP">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="All Pixels No Flood GRP">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="All Pixels No Faces GRP">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="GE Who Pup">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Icicles-Left">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Icicles-Right">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Hattitude Quartet">
+      <EffectLayer>
+        <Effect ref="0" name="Faces" startTime="4850" endTime="11400" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Icicles-Lower-LG">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Matrix">
-      <EffectLayer>
-        <Effect ref="0" name="Text" selected="1" startTime="0" endTime="30025" palette="0"/>
-      </EffectLayer>
+    <Element type="model" name="128x32-Matrix">
+      <EffectLayer/>
     </Element>
     <Element type="model" name="Vert 2">
       <EffectLayer/>
@@ -191,7 +297,9 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="GE Singing Bulb 1">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="1" name="Faces" selected="1" startTime="0" endTime="16300" palette="1"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="GE Singing Bulb 2">
       <EffectLayer/>
@@ -209,7 +317,7 @@
       <EffectLayer/>
     </Element>
   </ElementEffects>
-  <lastView>5</lastView>
+  <lastView>4</lastView>
   <TimingTags>
     <Tag number="0" position="-1"/>
     <Tag number="1" position="-1"/>

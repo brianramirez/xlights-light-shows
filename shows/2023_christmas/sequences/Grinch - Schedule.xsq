@@ -19,16 +19,22 @@
   <nextid>1</nextid>
   <Jukebox/>
   <ColorPalettes>
-    <ColorPalette>C_BUTTON_Palette1=#004000,C_BUTTON_Palette2=#008000,C_BUTTON_Palette3=#00BF00,C_BUTTON_Palette4=#00FF00,C_BUTTON_Palette5=#37FF37,C_BUTTON_Palette6=#6AFF6A,C_BUTTON_Palette7=#93FF93,C_BUTTON_Palette8=#CCFFCC,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1</ColorPalette>
-    <ColorPalette>C_BUTTON_Palette1=#004000,C_BUTTON_Palette2=#008000,C_BUTTON_Palette3=#00BF00,C_BUTTON_Palette4=#008000,C_BUTTON_Palette5=#004000,C_BUTTON_Palette6=#6AFF6A,C_BUTTON_Palette7=#93FF93,C_BUTTON_Palette8=#CCFFCC,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1</ColorPalette>
-    <ColorPalette>C_BUTTON_Palette1=#004000,C_BUTTON_Palette2=#008000,C_BUTTON_Palette3=#00BF00,C_BUTTON_Palette4=#00FF00,C_BUTTON_Palette5=#37FF37,C_BUTTON_Palette6=#6AFF6A,C_BUTTON_Palette7=#93FF93,C_BUTTON_Palette8=#CCFFCC,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#004000,C_BUTTON_Palette2=#008000,C_BUTTON_Palette3=#00BF00,C_BUTTON_Palette4=#00FF00,C_BUTTON_Palette5=#37FF37,C_BUTTON_Palette6=#6AFF6A,C_BUTTON_Palette7=#93FF93,C_BUTTON_Palette8=#CCFFCC,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_SLIDER_SparkleFrequency=30</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#004000,C_BUTTON_Palette2=#008000,C_BUTTON_Palette3=#00BF00,C_BUTTON_Palette4=#008000,C_BUTTON_Palette5=#004000,C_BUTTON_Palette6=#6AFF6A,C_BUTTON_Palette7=#93FF93,C_BUTTON_Palette8=#CCFFCC,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_SLIDER_SparkleFrequency=30</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#004000,C_BUTTON_Palette2=#008000,C_BUTTON_Palette3=#00BF00,C_BUTTON_Palette4=#00FF00,C_BUTTON_Palette5=#37FF37,C_BUTTON_Palette6=#6AFF6A,C_BUTTON_Palette7=#93FF93,C_BUTTON_Palette8=#CCFFCC,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_SLIDER_SparkleFrequency=30</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#004000,C_BUTTON_Palette2=#008000,C_BUTTON_Palette3=#00BF00,C_BUTTON_Palette4=#00FF00,C_BUTTON_Palette5=#37FF37,C_BUTTON_Palette6=#6AFF6A,C_BUTTON_Palette7=#93FF93,C_BUTTON_Palette8=#CCFFCC,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1</ColorPalette>
   </ColorPalettes>
   <EffectDB>
     <Effect>T_TEXTCTRL_Fadein=2.0</Effect>
     <Effect></Effect>
-    <Effect>E_CHECKBOX_Spirals_3D=0,E_CHECKBOX_Spirals_Blend=1,E_CHECKBOX_Spirals_Grow=1,E_CHECKBOX_Spirals_Shrink=0,E_SLIDER_Spirals_Count=3,E_SLIDER_Spirals_Rotation=95,E_SLIDER_Spirals_Thickness=50,E_TEXTCTRL_Spirals_Movement=1.0,T_TEXTCTRL_Fadein=2.0</Effect>
-    <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_EyeBlinkFrequency=Normal,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Shrek,E_CHOICE_Faces_TimingTrack=GRINCH</Effect>
+    <Effect>T_TEXTCTRL_Fadeout=2.0</Effect>
+    <Effect>E_CHECKBOX_Spirals_3D=0,E_CHECKBOX_Spirals_Blend=1,E_CHECKBOX_Spirals_Grow=1,E_CHECKBOX_Spirals_Shrink=0,E_SLIDER_Spirals_Count=3,E_SLIDER_Spirals_Rotation=95,E_SLIDER_Spirals_Thickness=50,E_TEXTCTRL_Spirals_Movement=1.0,T_TEXTCTRL_Fadein=2.0,T_TEXTCTRL_Fadeout=2</Effect>
+    <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_EyeBlinkFrequency=Normal,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Shrek,E_CHOICE_Faces_TimingTrack=GRINCH,T_TEXTCTRL_Fadein=2.00,T_TEXTCTRL_Fadeout=2.0</Effect>
+    <Effect>T_TEXTCTRL_Fadeout=2.00</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=10-12x12 Bold,E_FILEPICKERCTRL_Text_File=,E_FONTPICKER_Text_Font='segoe ui',E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=TUNE TO 91.9FM,E_TEXTCTRL_Text_Speed=10,T_TEXTCTRL_Fadein=2,T_TEXTCTRL_Fadeout=1.00</Effect>
+    <Effect>E_CHOICE_Plasma_Color=Normal,E_SLIDER_Plasma_Line_Density=1,E_SLIDER_Plasma_Speed=10,E_SLIDER_Plasma_Style=3,T_TEXTCTRL_Fadein=2,T_TEXTCTRL_Fadeout=1.00</Effect>
     <Effect>T_TEXTCTRL_Fadein=1.00,T_TEXTCTRL_Fadeout=1.00</Effect>
   </EffectDB>
   <DataLayers>
@@ -703,7 +709,7 @@
         <Effect ref="1" name="Color Wash" id="4" startTime="40000" endTime="50000" palette="0"/>
         <Effect ref="1" name="Color Wash" id="5" startTime="50000" endTime="60000" palette="1"/>
         <Effect ref="1" name="Color Wash" id="6" startTime="60000" endTime="70000" palette="0"/>
-        <Effect ref="1" name="Color Wash" id="7" startTime="70000" endTime="75075" palette="1"/>
+        <Effect ref="2" name="Color Wash" id="7" startTime="70000" endTime="77625" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Verts GRP">
@@ -715,7 +721,7 @@
         <Effect ref="1" name="Color Wash" id="4" startTime="40000" endTime="50000" palette="0"/>
         <Effect ref="1" name="Color Wash" id="5" startTime="50000" endTime="60000" palette="1"/>
         <Effect ref="1" name="Color Wash" id="6" startTime="60000" endTime="70000" palette="0"/>
-        <Effect ref="1" name="Color Wash" id="7" startTime="70000" endTime="75075" palette="1"/>
+        <Effect ref="2" name="Color Wash" id="7" startTime="70000" endTime="77625" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GE Pumpkin Stack GRP">
@@ -736,7 +742,7 @@
         <Effect ref="1" name="Color Wash" id="4" startTime="40000" endTime="50000" palette="0"/>
         <Effect ref="1" name="Color Wash" id="5" startTime="50000" endTime="60000" palette="1"/>
         <Effect ref="1" name="Color Wash" id="6" startTime="60000" endTime="70000" palette="0"/>
-        <Effect ref="1" name="Color Wash" id="7" startTime="70000" endTime="75075" palette="1"/>
+        <Effect ref="2" name="Color Wash" id="7" startTime="70000" endTime="77625" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Trees GRP">
@@ -810,7 +816,7 @@
     </Element>
     <Element type="model" name="Icicles GRP">
       <EffectLayer>
-        <Effect ref="2" name="Spirals" startTime="0" endTime="75050" palette="2"/>
+        <Effect ref="3" name="Spirals" startTime="0" endTime="77625" palette="2"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="All Pixels No Flood GRP">
@@ -818,14 +824,31 @@
     </Element>
     <Element type="model" name="Hattitude Quartet">
       <EffectLayer>
-        <Effect ref="3" name="Faces" startTime="2050" endTime="75000" palette="3"/>
+        <Effect ref="4" name="Faces" startTime="0" endTime="77625" palette="3"/>
       </EffectLayer>
+      <SubModelEffectLayer name="Outer Ring">
+        <Effect ref="0" name="Color Wash" startTime="0" endTime="10000" palette="0"/>
+        <Effect ref="1" name="Color Wash" id="1" startTime="10000" endTime="20000" palette="1"/>
+        <Effect ref="1" name="Color Wash" id="2" startTime="20000" endTime="30000" palette="0"/>
+        <Effect ref="1" name="Color Wash" id="3" startTime="30000" endTime="40000" palette="1"/>
+        <Effect ref="1" name="Color Wash" id="4" startTime="40000" endTime="50000" palette="0"/>
+        <Effect ref="1" name="Color Wash" id="5" startTime="50000" endTime="60000" palette="1"/>
+        <Effect ref="1" name="Color Wash" id="6" startTime="60000" endTime="70000" palette="0"/>
+        <Effect ref="5" name="Color Wash" id="7" startTime="70000" endTime="77625" palette="1"/>
+      </SubModelEffectLayer>
     </Element>
     <Element type="model" name="Icicles-Lower-LG">
       <EffectLayer/>
     </Element>
     <Element type="model" name="128x32-Matrix">
       <EffectLayer/>
+      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="6" name="Text" startTime="0" endTime="77700" palette="4"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="7" name="Plasma" startTime="0" endTime="77700" palette="5"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Vert 2">
       <EffectLayer/>
@@ -868,7 +891,7 @@
     </Element>
     <Element type="model" name="GE Who Pup">
       <EffectLayer>
-        <Effect ref="4" name="On" selected="1" startTime="47450" endTime="57000" palette="3"/>
+        <Effect ref="8" name="On" startTime="47450" endTime="57000" palette="3"/>
       </EffectLayer>
     </Element>
   </ElementEffects>
