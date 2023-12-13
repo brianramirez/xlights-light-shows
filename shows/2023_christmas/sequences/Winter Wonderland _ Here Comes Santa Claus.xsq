@@ -84,6 +84,7 @@
     <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Bounce from Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_SingleStrand_FX=Fireworks 1D,E_CHOICE_SingleStrand_FX_Palette=* Colors Only,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=15,E_SLIDER_FX_Intensity=128,E_SLIDER_FX_Speed=128,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Offset=0.0,E_TEXTCTRL_Chase_Rotations=12</Effect>
     <Effect>E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Bounce from Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_SingleStrand_FX=Fireworks 1D,E_CHOICE_SingleStrand_FX_Palette=* Colors Only,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=15,E_SLIDER_FX_Intensity=128,E_SLIDER_FX_Speed=128,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Offset=0.0,E_TEXTCTRL_Chase_Rotations=3.3</Effect>
     <Effect>B_CHOICE_BufferTransform=Rotate CW 90,E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Bounce from Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_SingleStrand_FX=Fireworks 1D,E_CHOICE_SingleStrand_FX_Palette=* Colors Only,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=35,E_SLIDER_FX_Intensity=128,E_SLIDER_FX_Speed=128,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Offset=0.0,E_TEXTCTRL_Chase_Rotations=3.3</Effect>
+    <Effect>E_CHECKBOX_Pinwheel_Rotation=1,E_CHOICE_Pinwheel_3D=3D,E_CHOICE_Pinwheel_Style=New Render Method,E_SLIDER_PinwheelXC=0,E_SLIDER_PinwheelYC=-100,E_SLIDER_Pinwheel_ArmSize=132,E_SLIDER_Pinwheel_Arms=3,E_SLIDER_Pinwheel_Offset=0,E_SLIDER_Pinwheel_Speed=10,E_SLIDER_Pinwheel_Thickness=71,E_SLIDER_Pinwheel_Twist=90</Effect>
     <Effect>E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Bounce from Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_SingleStrand_FX=Fireworks 1D,E_CHOICE_SingleStrand_FX_Palette=* Colors Only,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=15,E_SLIDER_FX_Intensity=128,E_SLIDER_FX_Speed=128,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Offset=0.0,E_TEXTCTRL_Chase_Rotations=4.2</Effect>
     <Effect>B_CHOICE_BufferTransform=Rotate CW 90,E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Bounce from Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_SingleStrand_FX=Fireworks 1D,E_CHOICE_SingleStrand_FX_Palette=* Colors Only,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=15,E_SLIDER_FX_Intensity=128,E_SLIDER_FX_Speed=128,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Offset=0.0,E_TEXTCTRL_Chase_Rotations=4.2</Effect>
     <Effect>T_TEXTCTRL_Fadein=1.00</Effect>
@@ -2766,29 +2767,30 @@
         <Effect ref="20" name="SingleStrand" startTime="73525" endTime="84650" palette="2"/>
         <Effect ref="21" name="SingleStrand" id="1" startTime="98375" endTime="102000" palette="2"/>
         <Effect ref="22" name="SingleStrand" id="2" startTime="102000" endTime="105500" palette="2"/>
-        <Effect ref="7" name="Color Wash" id="3" startTime="126850" endTime="129525" palette="19"/>
-        <Effect ref="7" name="Color Wash" id="4" startTime="129525" endTime="132175" palette="20"/>
-        <Effect ref="7" name="Color Wash" id="5" startTime="132175" endTime="134850" palette="19"/>
-        <Effect ref="7" name="Color Wash" id="6" startTime="134850" endTime="137500" palette="20"/>
-        <Effect ref="7" name="Color Wash" id="7" startTime="137500" endTime="140175" palette="19"/>
-        <Effect ref="7" name="Color Wash" id="8" startTime="140175" endTime="144650" palette="20"/>
-        <Effect ref="23" name="SingleStrand" id="9" startTime="144650" endTime="148275" palette="2"/>
-        <Effect ref="24" name="SingleStrand" id="10" startTime="148275" endTime="151900" palette="2"/>
-        <Effect ref="23" name="SingleStrand" id="11" startTime="151900" endTime="155300" palette="2"/>
+        <Effect ref="23" name="Pinwheel" selected="1" id="3" startTime="116150" endTime="126850" palette="19"/>
+        <Effect ref="7" name="Color Wash" id="4" startTime="126850" endTime="129525" palette="19"/>
+        <Effect ref="7" name="Color Wash" id="5" startTime="129525" endTime="132175" palette="20"/>
+        <Effect ref="7" name="Color Wash" id="6" startTime="132175" endTime="134850" palette="19"/>
+        <Effect ref="7" name="Color Wash" id="7" startTime="134850" endTime="137500" palette="20"/>
+        <Effect ref="7" name="Color Wash" id="8" startTime="137500" endTime="140175" palette="19"/>
+        <Effect ref="7" name="Color Wash" id="9" startTime="140175" endTime="144650" palette="20"/>
+        <Effect ref="24" name="SingleStrand" id="10" startTime="144650" endTime="148275" palette="2"/>
+        <Effect ref="25" name="SingleStrand" id="11" startTime="148275" endTime="151900" palette="2"/>
+        <Effect ref="24" name="SingleStrand" id="12" startTime="151900" endTime="155300" palette="2"/>
       </EffectLayer>
       <EffectLayer>
-        <Effect ref="25" name="Color Wash" startTime="72150" endTime="77550" palette="21"/>
-        <Effect ref="26" name="Color Wash" id="1" startTime="77550" endTime="84625" palette="22"/>
+        <Effect ref="26" name="Color Wash" startTime="72150" endTime="77550" palette="21"/>
+        <Effect ref="27" name="Color Wash" id="1" startTime="77550" endTime="84625" palette="22"/>
       </EffectLayer>
       <EffectLayer>
-        <Effect ref="27" name="Pinwheel" startTime="55525" endTime="70075" palette="23"/>
-        <Effect ref="27" name="Pinwheel" id="1" startTime="84200" endTime="98400" palette="24"/>
+        <Effect ref="28" name="Pinwheel" startTime="55525" endTime="70075" palette="23"/>
+        <Effect ref="28" name="Pinwheel" id="1" startTime="84200" endTime="98400" palette="24"/>
       </EffectLayer>
       <EffectLayer>
-        <Effect ref="28" name="Fan" startTime="55525" endTime="70075" palette="24"/>
-        <Effect ref="28" name="Fan" id="1" startTime="84200" endTime="98400" palette="24"/>
+        <Effect ref="29" name="Fan" startTime="55525" endTime="70075" palette="24"/>
+        <Effect ref="29" name="Fan" id="1" startTime="84200" endTime="98400" palette="24"/>
         <Effect ref="7" name="Color Wash" id="2" startTime="98400" endTime="102000" palette="25"/>
-        <Effect ref="29" name="Pinwheel" id="3" startTime="102000" endTime="112575" palette="10"/>
+        <Effect ref="30" name="Pinwheel" id="3" startTime="102000" endTime="112575" palette="10"/>
         <Effect ref="7" name="Color Wash" id="4" startTime="112575" endTime="116175" palette="26"/>
       </EffectLayer>
     </Element>
@@ -2815,17 +2817,17 @@
     </Element>
     <Element type="model" name="GE Hattitude Quartet Whirliwig GRP">
       <EffectLayer>
-        <Effect ref="30" name="Fan" startTime="27300" endTime="31325" palette="27"/>
+        <Effect ref="31" name="Fan" startTime="27300" endTime="31325" palette="27"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GE Hattitude Quartet Whirliwig Odd GRP">
       <EffectLayer>
-        <Effect ref="31" name="Galaxy" startTime="275" endTime="7750" palette="28"/>
+        <Effect ref="32" name="Galaxy" startTime="275" endTime="7750" palette="28"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GE Hattitude Snowflake Arms GRP">
       <EffectLayer>
-        <Effect ref="32" name="Fan" startTime="30875" endTime="34875" palette="1"/>
+        <Effect ref="33" name="Fan" startTime="30875" endTime="34875" palette="1"/>
       </EffectLayer>
       <EffectLayer/>
     </Element>
@@ -2846,12 +2848,12 @@
     </Element>
     <Element type="model" name="Hattitude Quartet Spinners GRP">
       <EffectLayer>
-        <Effect ref="33" name="Shockwave" startTime="7750" endTime="8175" palette="28"/>
-        <Effect ref="33" name="Shockwave" id="1" startTime="8175" endTime="8425" palette="28"/>
-        <Effect ref="33" name="Shockwave" id="2" startTime="8425" endTime="8625" palette="28"/>
-        <Effect ref="33" name="Shockwave" id="3" startTime="8850" endTime="9200" palette="28"/>
-        <Effect ref="33" name="Shockwave" id="4" startTime="9200" endTime="9425" palette="28"/>
-        <Effect ref="33" name="Shockwave" id="5" startTime="9425" endTime="10000" palette="28"/>
+        <Effect ref="34" name="Shockwave" startTime="7750" endTime="8175" palette="28"/>
+        <Effect ref="34" name="Shockwave" id="1" startTime="8175" endTime="8425" palette="28"/>
+        <Effect ref="34" name="Shockwave" id="2" startTime="8425" endTime="8625" palette="28"/>
+        <Effect ref="34" name="Shockwave" id="3" startTime="8850" endTime="9200" palette="28"/>
+        <Effect ref="34" name="Shockwave" id="4" startTime="9200" endTime="9425" palette="28"/>
+        <Effect ref="34" name="Shockwave" id="5" startTime="9425" endTime="10000" palette="28"/>
       </EffectLayer>
       <EffectLayer/>
       <EffectLayer/>
@@ -2867,53 +2869,53 @@
     </Element>
     <Element type="model" name="Hattitude Quartet">
       <EffectLayer>
-        <Effect ref="34" name="Faces" startTime="9550" endTime="27300" palette="27"/>
-        <Effect ref="35" name="Faces" id="1" startTime="40950" endTime="184325" palette="27"/>
+        <Effect ref="35" name="Faces" startTime="9550" endTime="27300" palette="27"/>
+        <Effect ref="36" name="Faces" id="1" startTime="40950" endTime="184325" palette="27"/>
       </EffectLayer>
       <SubModelEffectLayer name="Snow Globe Bow">
-        <Effect ref="36" name="Fan" startTime="34450" endTime="41075" palette="29"/>
+        <Effect ref="37" name="Fan" startTime="34450" endTime="41075" palette="29"/>
       </SubModelEffectLayer>
       <SubModelEffectLayer name="Snow Globe W Base">
         <Effect ref="7" name="Color Wash" startTime="34450" endTime="41075" palette="30"/>
       </SubModelEffectLayer>
       <SubModelEffectLayer name="Outer Ring">
-        <Effect ref="37" name="SingleStrand" startTime="10000" endTime="26200" palette="31"/>
+        <Effect ref="38" name="SingleStrand" startTime="10000" endTime="26200" palette="31"/>
       </SubModelEffectLayer>
     </Element>
     <Element type="model" name="Icicles-Lower-LG">
       <EffectLayer>
         <Effect ref="1" name="Color Wash" startTime="0" endTime="7750" palette="1"/>
-        <Effect ref="38" name="Snowflakes" id="1" startTime="9525" endTime="40625" palette="32"/>
+        <Effect ref="39" name="Snowflakes" id="1" startTime="9525" endTime="40625" palette="32"/>
       </EffectLayer>
       <EffectLayer>
         <Effect ref="1" name="Color Wash" startTime="26425" endTime="26650" palette="1"/>
         <Effect ref="1" name="Color Wash" id="1" startTime="26650" endTime="26875" palette="1"/>
         <Effect ref="1" name="Color Wash" id="2" startTime="26875" endTime="27300" palette="1"/>
-        <Effect ref="39" name="SingleStrand" id="3" startTime="27300" endTime="40625" palette="4"/>
+        <Effect ref="40" name="SingleStrand" id="3" startTime="27300" endTime="40625" palette="4"/>
       </EffectLayer>
       <EffectLayer>
-        <Effect ref="40" name="Wave" startTime="0" endTime="7750" palette="33"/>
-        <Effect ref="41" name="Wave" id="1" startTime="27300" endTime="40625" palette="2"/>
+        <Effect ref="41" name="Wave" startTime="0" endTime="7750" palette="33"/>
+        <Effect ref="42" name="Wave" id="1" startTime="27300" endTime="40625" palette="2"/>
       </EffectLayer>
       <EffectLayer>
-        <Effect ref="42" name="Wave" startTime="0" endTime="7750" palette="34"/>
-        <Effect ref="43" name="SingleStrand" id="1" startTime="7750" endTime="8175" palette="35"/>
-        <Effect ref="43" name="SingleStrand" id="2" startTime="8175" endTime="8875" palette="35"/>
-        <Effect ref="43" name="SingleStrand" id="3" startTime="8875" endTime="9200" palette="35"/>
-        <Effect ref="43" name="SingleStrand" id="4" startTime="9200" endTime="9525" palette="35"/>
-        <Effect ref="44" name="SingleStrand" id="5" startTime="9525" endTime="10425" palette="35"/>
+        <Effect ref="43" name="Wave" startTime="0" endTime="7750" palette="34"/>
+        <Effect ref="44" name="SingleStrand" id="1" startTime="7750" endTime="8175" palette="35"/>
+        <Effect ref="44" name="SingleStrand" id="2" startTime="8175" endTime="8875" palette="35"/>
+        <Effect ref="44" name="SingleStrand" id="3" startTime="8875" endTime="9200" palette="35"/>
+        <Effect ref="44" name="SingleStrand" id="4" startTime="9200" endTime="9525" palette="35"/>
+        <Effect ref="45" name="SingleStrand" id="5" startTime="9525" endTime="10425" palette="35"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="128x32-Matrix">
       <EffectLayer>
-        <Effect ref="45" name="Text" startTime="0" endTime="184325" palette="36"/>
+        <Effect ref="46" name="Text" startTime="0" endTime="184325" palette="36"/>
       </EffectLayer>
       <EffectLayer/>
       <EffectLayer>
-        <Effect ref="46" name="Snowflakes" startTime="0" endTime="184325" palette="2"/>
+        <Effect ref="47" name="Snowflakes" startTime="0" endTime="184325" palette="2"/>
       </EffectLayer>
       <EffectLayer>
-        <Effect ref="47" name="Marquee" startTime="0" endTime="184325" palette="27"/>
+        <Effect ref="48" name="Marquee" startTime="0" endTime="184325" palette="27"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Vert 2">
@@ -2936,20 +2938,20 @@
     </Element>
     <Element type="model" name="GE Singing Bulb 1">
       <EffectLayer>
-        <Effect ref="48" name="Faces" startTime="27300" endTime="40950" palette="37"/>
-        <Effect ref="48" name="Faces" id="1" startTime="71675" endTime="77225" palette="37"/>
-        <Effect ref="48" name="Faces" id="2" startTime="84250" endTime="97500" palette="37"/>
-        <Effect ref="48" name="Faces" id="3" startTime="100225" endTime="119750" palette="37"/>
-        <Effect ref="48" name="Faces" id="4" startTime="157000" endTime="180250" palette="37"/>
+        <Effect ref="49" name="Faces" startTime="27300" endTime="40950" palette="37"/>
+        <Effect ref="49" name="Faces" id="1" startTime="71675" endTime="77225" palette="37"/>
+        <Effect ref="49" name="Faces" id="2" startTime="84250" endTime="97500" palette="37"/>
+        <Effect ref="49" name="Faces" id="3" startTime="100225" endTime="119750" palette="37"/>
+        <Effect ref="49" name="Faces" id="4" startTime="157000" endTime="180250" palette="37"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GE Singing Bulb 2">
       <EffectLayer>
-        <Effect ref="48" name="Faces" startTime="27300" endTime="40950" palette="37"/>
-        <Effect ref="48" name="Faces" id="1" startTime="71675" endTime="77225" palette="37"/>
-        <Effect ref="48" name="Faces" id="2" startTime="84250" endTime="97500" palette="37"/>
-        <Effect ref="48" name="Faces" id="3" startTime="100225" endTime="119750" palette="37"/>
-        <Effect ref="48" name="Faces" id="4" startTime="157000" endTime="180250" palette="37"/>
+        <Effect ref="49" name="Faces" startTime="27300" endTime="40950" palette="37"/>
+        <Effect ref="49" name="Faces" id="1" startTime="71675" endTime="77225" palette="37"/>
+        <Effect ref="49" name="Faces" id="2" startTime="84250" endTime="97500" palette="37"/>
+        <Effect ref="49" name="Faces" id="3" startTime="100225" endTime="119750" palette="37"/>
+        <Effect ref="49" name="Faces" id="4" startTime="157000" endTime="180250" palette="37"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Tree A2">
@@ -2979,17 +2981,17 @@
         <Effect ref="7" name="On" id="4" startTime="8850" endTime="9225" palette="8"/>
         <Effect ref="7" name="On" id="5" startTime="9225" endTime="9425" palette="6"/>
         <Effect ref="7" name="On" id="6" startTime="9425" endTime="10000" palette="5"/>
-        <Effect ref="49" name="Fan" id="7" startTime="10000" endTime="26400" palette="19"/>
+        <Effect ref="50" name="Fan" id="7" startTime="10000" endTime="26400" palette="19"/>
         <Effect ref="1" name="Color Wash" id="8" startTime="26425" endTime="26650" palette="1"/>
         <Effect ref="1" name="Color Wash" id="9" startTime="26650" endTime="26875" palette="1"/>
         <Effect ref="1" name="Color Wash" id="10" startTime="26875" endTime="27300" palette="1"/>
-        <Effect ref="50" name="Fan" id="11" startTime="27300" endTime="42000" palette="27"/>
-        <Effect ref="51" name="Meteors" id="12" startTime="42000" endTime="55725" palette="38"/>
-        <Effect ref="52" name="Twinkle" id="13" startTime="69950" endTime="73525" palette="39"/>
-        <Effect ref="51" name="Meteors" id="14" startTime="154850" endTime="168575" palette="38"/>
+        <Effect ref="51" name="Fan" id="11" startTime="27300" endTime="42000" palette="27"/>
+        <Effect ref="52" name="Meteors" id="12" startTime="42000" endTime="55725" palette="38"/>
+        <Effect ref="53" name="Twinkle" id="13" startTime="69950" endTime="73525" palette="39"/>
+        <Effect ref="52" name="Meteors" id="14" startTime="154850" endTime="168575" palette="38"/>
       </EffectLayer>
       <EffectLayer>
-        <Effect ref="53" name="Pinwheel" startTime="10000" endTime="26400" palette="10"/>
+        <Effect ref="54" name="Pinwheel" startTime="10000" endTime="26400" palette="10"/>
       </EffectLayer>
       <EffectLayer/>
     </Element>

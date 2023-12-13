@@ -43,6 +43,7 @@
     <ColorPalette>C_BUTTON_Palette1=#000000,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFFFF,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#000000,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFFFF,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette5=1</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#000000,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFFFF,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFFFF,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette7=1</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFFFF,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette7=1</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFFFF,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FF0000,C_BUTTON_Palette2=#FFFFFF,C_BUTTON_Palette3=#8000FF,C_BUTTON_Palette4=#FFFF00,C_BUTTON_Palette5=#FFFFFF,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1</ColorPalette>
@@ -73,8 +74,11 @@
     <Effect></Effect>
     <Effect>E_CHECKBOX_Regex=0,E_CHOICE_VUMeter_TimingTrack=Beats,E_CHOICE_VUMeter_Type=Timing Event Pulse,E_SLIDER_VUMeter_Bars=24,E_TEXTCTRL_Filter=</Effect>
     <Effect>E_CHECKBOX_Regex=0,E_CHOICE_VUMeter_TimingTrack=Beats,E_CHOICE_VUMeter_Type=Timing Event Pulse Color,E_SLIDER_VUMeter_Bars=24,E_TEXTCTRL_Filter=</Effect>
+    <Effect>B_CHOICE_BufferStyle=Vertical Per Model/Strand,E_CHECKBOX_Regex=0,E_CHOICE_VUMeter_TimingTrack=Beats,E_CHOICE_VUMeter_Type=Timing Event Timed Chase From Middle,E_SLIDER_VUMeter_Bars=25,E_TEXTCTRL_Filter=</Effect>
     <Effect>E_CHECKBOX_Shockwave_Blend_Edges=1,E_NOTEBOOK_Shockwave=Position,E_SLIDER_Shockwave_Accel=0,E_SLIDER_Shockwave_CenterX=50,E_SLIDER_Shockwave_CenterY=50,E_SLIDER_Shockwave_End_Radius=113,E_SLIDER_Shockwave_End_Width=75,E_SLIDER_Shockwave_Start_Radius=1,E_SLIDER_Shockwave_Start_Width=5</Effect>
     <Effect>E_CHECKBOX_Pinwheel_Rotation=1,E_CHOICE_Pinwheel_3D=3D,E_CHOICE_Pinwheel_Style=New Render Method,E_SLIDER_PinwheelXC=0,E_SLIDER_PinwheelYC=0,E_SLIDER_Pinwheel_ArmSize=100,E_SLIDER_Pinwheel_Arms=3,E_SLIDER_Pinwheel_Offset=0,E_SLIDER_Pinwheel_Speed=10,E_SLIDER_Pinwheel_Thickness=78,E_SLIDER_Pinwheel_Twist=131,T_TEXTCTRL_Fadein=0.50</Effect>
+    <Effect>T_CHOICE_LayerMethod=2 is Unmask</Effect>
+    <Effect>E_0FILEPICKERCTRL_IFS=C:\Users\brian\dev\src\personal\xlights-light-shows\shows\2023_christmas\Shaders\Black Cherry Cosmos.fs,E_SLIDER_SHADERXYZZY_mouseX=0,E_SLIDER_SHADERXYZZY_mouseY=0,E_SLIDER_Shader_Speed=100,E_TEXTCTRL_Shader_LeadIn=0,E_TEXTCTRL_Shader_Offset_X=0,E_TEXTCTRL_Shader_Offset_Y=0,E_TEXTCTRL_Shader_Zoom=0</Effect>
     <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Quartet Tree,E_CHOICE_Faces_TimingTrack=LYRICS</Effect>
     <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Quartet Bulb,E_CHOICE_Faces_TimingTrack=LYRICS</Effect>
     <Effect>E_CHECKBOX_Mirror_Wave=0,E_CHOICE_Fill_Colors=Palette,E_CHOICE_Wave_Direction=Right to Left,E_CHOICE_Wave_Type=Sine,E_SLIDER_Number_Waves=1100,E_SLIDER_Thickness_Percentage=38,E_SLIDER_Wave_Height=75,E_SLIDER_Wave_YOffset=0,E_TEXTCTRL_Wave_Speed=25</Effect>
@@ -87,7 +91,7 @@
     <DataLayer lor_params="5374044" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
   </DataLayers>
   <DisplayElements>
-    <Element collapsed="0" type="timing" name="LYRICS" visible="1" views="Singing Faces,Christmas View" active="1"/>
+    <Element collapsed="0" type="timing" name="LYRICS" visible="1" views="Singing Faces,Christmas View" active="0"/>
     <Element collapsed="0" type="timing" name="LYRICS_1" visible="1" views="Singing Faces,Christmas View" active="0"/>
     <Element collapsed="0" type="timing" name="Beats" visible="1" views="Singing Faces,Christmas View" active="1"/>
     <Element collapsed="0" type="timing" name="Note Onsets" visible="1" views="Christmas View" active="0"/>
@@ -4181,265 +4185,265 @@
     </Element>
     <Element type="model" name="All Pixels GRP">
       <EffectLayer>
-        <Effect ref="0" name="Pinwheel" id="1" startTime="43175" endTime="56700" palette="0"/>
-        <Effect ref="1" name="Shockwave" id="2" startTime="56700" endTime="57200" palette="1"/>
-        <Effect ref="1" name="Shockwave" id="3" startTime="57200" endTime="57675" palette="1"/>
-        <Effect ref="1" name="Shockwave" id="4" startTime="57675" endTime="58150" palette="2"/>
-        <Effect ref="1" name="Shockwave" id="5" startTime="58150" endTime="58625" palette="2"/>
-        <Effect ref="1" name="Shockwave" id="6" startTime="58625" endTime="59125" palette="3"/>
-        <Effect ref="1" name="Shockwave" id="7" startTime="59125" endTime="59600" palette="3"/>
-        <Effect ref="1" name="Shockwave" id="8" startTime="59600" endTime="60075" palette="4"/>
-        <Effect ref="1" name="Shockwave" id="9" startTime="60075" endTime="60575" palette="4"/>
-        <Effect ref="1" name="Shockwave" id="10" startTime="60575" endTime="61050" palette="2"/>
-        <Effect ref="1" name="Shockwave" id="11" startTime="61050" endTime="61550" palette="2"/>
-        <Effect ref="1" name="Shockwave" id="12" startTime="61550" endTime="62025" palette="3"/>
-        <Effect ref="1" name="Shockwave" id="13" startTime="62025" endTime="62500" palette="3"/>
-        <Effect ref="1" name="Shockwave" id="14" startTime="62500" endTime="62975" palette="4"/>
-        <Effect ref="1" name="Shockwave" id="15" startTime="62975" endTime="63475" palette="4"/>
-        <Effect ref="1" name="Shockwave" id="16" startTime="63475" endTime="63950" palette="2"/>
-        <Effect ref="1" name="Shockwave" id="17" startTime="63950" endTime="64425" palette="2"/>
-        <Effect ref="1" name="Shockwave" id="18" startTime="64425" endTime="64925" palette="3"/>
-        <Effect ref="1" name="Shockwave" id="19" startTime="64925" endTime="65400" palette="3"/>
-        <Effect ref="1" name="Shockwave" id="20" startTime="65400" endTime="65900" palette="4"/>
-        <Effect ref="1" name="Shockwave" id="21" startTime="65900" endTime="66375" palette="4"/>
-        <Effect ref="1" name="Shockwave" id="22" startTime="66375" endTime="66850" palette="3"/>
-        <Effect ref="1" name="Shockwave" id="23" startTime="66850" endTime="67350" palette="3"/>
-        <Effect ref="1" name="Shockwave" id="24" startTime="67350" endTime="67825" palette="4"/>
-        <Effect ref="1" name="Shockwave" id="25" startTime="67825" endTime="68325" palette="4"/>
-        <Effect ref="1" name="Shockwave" id="26" startTime="68325" endTime="68800" palette="2"/>
-        <Effect ref="1" name="Shockwave" id="27" startTime="68800" endTime="69275" palette="2"/>
-        <Effect ref="1" name="Shockwave" id="28" startTime="69275" endTime="69775" palette="4"/>
-        <Effect ref="1" name="Shockwave" id="29" startTime="69775" endTime="70250" palette="4"/>
-        <Effect ref="1" name="Shockwave" id="30" startTime="70250" endTime="70725" palette="2"/>
-        <Effect ref="1" name="Shockwave" id="31" startTime="70725" endTime="71225" palette="2"/>
-        <Effect ref="1" name="Shockwave" id="32" startTime="71225" endTime="71700" palette="3"/>
-        <Effect ref="1" name="Shockwave" id="33" startTime="71700" endTime="72175" palette="3"/>
-        <Effect ref="1" name="Shockwave" id="34" startTime="72175" endTime="72675" palette="4"/>
-        <Effect ref="1" name="Shockwave" id="35" startTime="72675" endTime="73150" palette="4"/>
-        <Effect ref="1" name="Shockwave" id="36" startTime="73150" endTime="73625" palette="3"/>
-        <Effect ref="1" name="Shockwave" id="37" startTime="73625" endTime="74125" palette="3"/>
-        <Effect ref="1" name="Shockwave" id="38" startTime="74125" endTime="74600" palette="2"/>
-        <Effect ref="1" name="Shockwave" id="39" startTime="74600" endTime="75075" palette="2"/>
-        <Effect ref="1" name="Shockwave" id="40" startTime="75075" endTime="75575" palette="3"/>
-        <Effect ref="1" name="Shockwave" id="41" startTime="75575" endTime="76050" palette="3"/>
-        <Effect ref="1" name="Shockwave" id="42" startTime="76050" endTime="76525" palette="4"/>
-        <Effect ref="1" name="Shockwave" id="43" startTime="76525" endTime="77025" palette="4"/>
-        <Effect ref="1" name="Shockwave" id="44" startTime="77025" endTime="77500" palette="3"/>
-        <Effect ref="1" name="Shockwave" id="45" startTime="77500" endTime="77975" palette="3"/>
-        <Effect ref="1" name="Shockwave" id="46" startTime="77975" endTime="78475" palette="2"/>
-        <Effect ref="1" name="Shockwave" id="47" startTime="78475" endTime="78950" palette="2"/>
-        <Effect ref="1" name="Shockwave" id="48" startTime="78950" endTime="79450" palette="4"/>
-        <Effect ref="1" name="Shockwave" id="49" startTime="79450" endTime="79925" palette="4"/>
-        <Effect ref="1" name="Shockwave" id="50" startTime="79925" endTime="80400" palette="2"/>
-        <Effect ref="1" name="Shockwave" id="51" startTime="80400" endTime="80900" palette="2"/>
-        <Effect ref="1" name="Shockwave" id="52" startTime="80900" endTime="81375" palette="3"/>
-        <Effect ref="1" name="Shockwave" id="53" startTime="81375" endTime="81850" palette="3"/>
-        <Effect ref="1" name="Shockwave" id="54" startTime="81850" endTime="82350" palette="4"/>
-        <Effect ref="1" name="Shockwave" id="55" startTime="82350" endTime="82825" palette="4"/>
-        <Effect ref="1" name="Shockwave" id="56" startTime="82825" endTime="83325" palette="2"/>
-        <Effect ref="1" name="Shockwave" id="57" startTime="83325" endTime="83800" palette="2"/>
-        <Effect ref="1" name="Shockwave" id="58" startTime="83800" endTime="84275" palette="3"/>
-        <Effect ref="1" name="Shockwave" id="59" startTime="84275" endTime="84775" palette="3"/>
-        <Effect ref="1" name="Shockwave" id="60" startTime="84775" endTime="85250" palette="4"/>
-        <Effect ref="1" name="Shockwave" id="61" startTime="85250" endTime="85725" palette="4"/>
-        <Effect ref="1" name="Shockwave" id="62" startTime="85725" endTime="86225" palette="2"/>
-        <Effect ref="1" name="Shockwave" id="63" startTime="86225" endTime="86700" palette="2"/>
-        <Effect ref="1" name="Shockwave" id="64" startTime="86700" endTime="87175" palette="3"/>
-        <Effect ref="1" name="Shockwave" id="65" startTime="87175" endTime="87675" palette="3"/>
-        <Effect ref="2" name="Pinwheel" id="66" startTime="87750" endTime="94975" palette="5"/>
-        <Effect ref="1" name="Shockwave" id="67" startTime="95400" endTime="95875" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="68" startTime="95875" endTime="96375" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="69" startTime="96375" endTime="96850" palette="7"/>
-        <Effect ref="1" name="Shockwave" id="70" startTime="96850" endTime="97350" palette="7"/>
-        <Effect ref="1" name="Shockwave" id="71" startTime="97350" endTime="97825" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="72" startTime="97825" endTime="98325" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="73" startTime="98325" endTime="98800" palette="8"/>
-        <Effect ref="1" name="Shockwave" id="74" startTime="98800" endTime="99275" palette="8"/>
-        <Effect ref="1" name="Shockwave" id="75" startTime="99275" endTime="99775" palette="7"/>
-        <Effect ref="1" name="Shockwave" id="76" startTime="99775" endTime="100250" palette="7"/>
-        <Effect ref="1" name="Shockwave" id="77" startTime="100250" endTime="100725" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="78" startTime="100725" endTime="101225" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="79" startTime="101225" endTime="101700" palette="7"/>
-        <Effect ref="1" name="Shockwave" id="80" startTime="101700" endTime="102175" palette="7"/>
-        <Effect ref="1" name="Shockwave" id="81" startTime="102175" endTime="102675" palette="8"/>
-        <Effect ref="1" name="Shockwave" id="82" startTime="102675" endTime="103150" palette="8"/>
-        <Effect ref="1" name="Shockwave" id="83" startTime="103150" endTime="103625" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="84" startTime="103625" endTime="104125" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="85" startTime="104125" endTime="104600" palette="7"/>
-        <Effect ref="1" name="Shockwave" id="86" startTime="104600" endTime="105100" palette="7"/>
-        <Effect ref="1" name="Shockwave" id="87" startTime="105100" endTime="105575" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="88" startTime="105575" endTime="106050" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="89" startTime="106050" endTime="106525" palette="8"/>
-        <Effect ref="1" name="Shockwave" id="90" startTime="106525" endTime="107025" palette="8"/>
-        <Effect ref="1" name="Shockwave" id="91" startTime="107025" endTime="107500" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="92" startTime="107500" endTime="108000" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="93" startTime="108000" endTime="108475" palette="7"/>
-        <Effect ref="1" name="Shockwave" id="94" startTime="108475" endTime="108950" palette="7"/>
-        <Effect ref="1" name="Shockwave" id="95" startTime="108950" endTime="109425" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="96" startTime="109425" endTime="109925" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="97" startTime="109925" endTime="110400" palette="8"/>
-        <Effect ref="1" name="Shockwave" id="98" startTime="110400" endTime="110900" palette="8"/>
-        <Effect ref="1" name="Shockwave" id="99" startTime="110900" endTime="111375" palette="7"/>
-        <Effect ref="1" name="Shockwave" id="100" startTime="111375" endTime="111850" palette="7"/>
-        <Effect ref="1" name="Shockwave" id="101" startTime="111850" endTime="112350" palette="7"/>
-        <Effect ref="1" name="Shockwave" id="102" startTime="112350" endTime="112825" palette="7"/>
-        <Effect ref="1" name="Shockwave" id="103" startTime="112825" endTime="113325" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="104" startTime="113325" endTime="113800" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="105" startTime="113800" endTime="114275" palette="8"/>
-        <Effect ref="1" name="Shockwave" id="106" startTime="114275" endTime="114775" palette="8"/>
-        <Effect ref="1" name="Shockwave" id="107" startTime="114775" endTime="115250" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="108" startTime="115250" endTime="115725" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="109" startTime="115725" endTime="116225" palette="7"/>
-        <Effect ref="1" name="Shockwave" id="110" startTime="116225" endTime="116700" palette="7"/>
-        <Effect ref="1" name="Shockwave" id="111" startTime="116700" endTime="117175" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="112" startTime="117175" endTime="117675" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="113" startTime="117675" endTime="118150" palette="8"/>
-        <Effect ref="1" name="Shockwave" id="114" startTime="118150" endTime="118625" palette="8"/>
-        <Effect ref="1" name="Shockwave" id="115" startTime="118625" endTime="119125" palette="7"/>
-        <Effect ref="1" name="Shockwave" id="116" startTime="119125" endTime="119600" palette="7"/>
-        <Effect ref="1" name="Shockwave" id="117" startTime="119600" endTime="120075" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="118" startTime="120075" endTime="120575" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="119" startTime="120575" endTime="121050" palette="8"/>
-        <Effect ref="1" name="Shockwave" id="120" startTime="121050" endTime="121525" palette="8"/>
-        <Effect ref="1" name="Shockwave" id="121" startTime="121525" endTime="122025" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="122" startTime="122025" endTime="122500" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="123" startTime="122500" endTime="123000" palette="7"/>
-        <Effect ref="1" name="Shockwave" id="124" startTime="123000" endTime="123475" palette="7"/>
-        <Effect ref="1" name="Shockwave" id="125" startTime="123475" endTime="123950" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="126" startTime="123950" endTime="124425" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="127" startTime="124425" endTime="124925" palette="8"/>
-        <Effect ref="1" name="Shockwave" id="128" startTime="124925" endTime="125400" palette="8"/>
-        <Effect ref="1" name="Shockwave" id="129" startTime="125400" endTime="125900" palette="7"/>
-        <Effect ref="1" name="Shockwave" id="130" startTime="125900" endTime="126375" palette="7"/>
-        <Effect ref="1" name="Shockwave" id="131" startTime="126375" endTime="126850" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="132" startTime="126850" endTime="127350" palette="9"/>
-        <Effect ref="1" name="Shockwave" id="133" startTime="127350" endTime="127825" palette="10"/>
-        <Effect ref="1" name="Shockwave" id="134" startTime="127825" endTime="128325" palette="11"/>
-        <Effect ref="1" name="Shockwave" id="135" startTime="128325" endTime="128800" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="136" startTime="128800" endTime="129275" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="137" startTime="129275" endTime="129750" palette="7"/>
-        <Effect ref="1" name="Shockwave" id="138" startTime="129750" endTime="130250" palette="7"/>
-        <Effect ref="1" name="Shockwave" id="139" startTime="130250" endTime="130725" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="140" startTime="130725" endTime="131225" palette="9"/>
-        <Effect ref="1" name="Shockwave" id="141" startTime="131225" endTime="131700" palette="10"/>
-        <Effect ref="1" name="Shockwave" id="142" startTime="131700" endTime="132175" palette="11"/>
-        <Effect ref="1" name="Shockwave" id="143" startTime="132175" endTime="132675" palette="7"/>
-        <Effect ref="1" name="Shockwave" id="144" startTime="132675" endTime="133150" palette="7"/>
-        <Effect ref="1" name="Shockwave" id="145" startTime="133150" endTime="133625" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="146" startTime="133625" endTime="134125" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="147" startTime="134125" endTime="134600" palette="8"/>
-        <Effect ref="1" name="Shockwave" id="148" startTime="134600" endTime="135075" palette="8"/>
-        <Effect ref="1" name="Shockwave" id="149" startTime="135075" endTime="135575" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="150" startTime="135575" endTime="136050" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="151" startTime="136050" endTime="136525" palette="7"/>
-        <Effect ref="1" name="Shockwave" id="152" startTime="136525" endTime="137025" palette="7"/>
-        <Effect ref="1" name="Shockwave" id="153" startTime="137025" endTime="137500" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="154" startTime="137500" endTime="137975" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="155" startTime="137975" endTime="138475" palette="8"/>
-        <Effect ref="1" name="Shockwave" id="156" startTime="138475" endTime="138950" palette="8"/>
-        <Effect ref="1" name="Shockwave" id="157" startTime="138950" endTime="139450" palette="7"/>
-        <Effect ref="1" name="Shockwave" id="158" startTime="139450" endTime="139925" palette="7"/>
-        <Effect ref="1" name="Shockwave" id="159" startTime="139925" endTime="140400" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="160" startTime="140400" endTime="140900" palette="6"/>
-        <Effect ref="1" name="Shockwave" id="161" startTime="140900" endTime="141375" palette="8"/>
-        <Effect ref="1" name="Shockwave" id="162" startTime="141375" endTime="141850" palette="8"/>
-        <Effect ref="3" name="Twinkle" id="163" startTime="141850" endTime="172475" palette="12"/>
-        <Effect ref="1" name="Shockwave" id="164" startTime="172900" endTime="173325" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="165" startTime="173325" endTime="173800" palette="14"/>
-        <Effect ref="1" name="Shockwave" id="166" startTime="173800" endTime="174275" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="167" startTime="174275" endTime="174775" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="168" startTime="174775" endTime="175250" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="169" startTime="175250" endTime="175725" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="170" startTime="175725" endTime="176225" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="171" startTime="176225" endTime="176700" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="172" startTime="176700" endTime="177175" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="173" startTime="177175" endTime="177675" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="174" startTime="177675" endTime="178150" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="175" startTime="178150" endTime="178625" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="176" startTime="178625" endTime="179125" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="177" startTime="179125" endTime="179600" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="178" startTime="179600" endTime="180075" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="179" startTime="180075" endTime="180575" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="180" startTime="180575" endTime="181050" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="181" startTime="181050" endTime="181525" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="182" startTime="181525" endTime="182025" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="183" startTime="182025" endTime="182500" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="184" startTime="182500" endTime="183000" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="185" startTime="183000" endTime="183475" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="186" startTime="183475" endTime="183950" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="187" startTime="183950" endTime="184450" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="188" startTime="184450" endTime="184925" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="189" startTime="184925" endTime="185400" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="190" startTime="185400" endTime="185875" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="191" startTime="185875" endTime="186375" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="192" startTime="186375" endTime="186850" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="193" startTime="186850" endTime="187350" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="194" startTime="187350" endTime="187825" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="195" startTime="188325" endTime="188800" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="196" startTime="188800" endTime="189275" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="197" startTime="189275" endTime="189775" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="198" startTime="189775" endTime="190250" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="199" startTime="190250" endTime="190725" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="200" startTime="190725" endTime="191225" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="201" startTime="191225" endTime="191700" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="202" startTime="191700" endTime="192175" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="203" startTime="192175" endTime="192675" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="204" startTime="192675" endTime="193150" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="205" startTime="193150" endTime="193625" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="206" startTime="193625" endTime="194125" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="207" startTime="194125" endTime="194600" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="208" startTime="194600" endTime="195075" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="209" startTime="195075" endTime="195575" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="210" startTime="195575" endTime="196050" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="211" startTime="196050" endTime="196525" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="212" startTime="196525" endTime="197025" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="213" startTime="197025" endTime="197500" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="214" startTime="197500" endTime="197975" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="215" startTime="197975" endTime="198475" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="216" startTime="198475" endTime="198950" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="217" startTime="198950" endTime="199425" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="218" startTime="199425" endTime="199925" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="219" startTime="199925" endTime="200400" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="220" startTime="200400" endTime="200900" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="221" startTime="200900" endTime="201375" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="222" startTime="201375" endTime="201850" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="223" startTime="201850" endTime="202350" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="224" startTime="202350" endTime="202825" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="225" startTime="202825" endTime="203325" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="226" startTime="203325" endTime="203800" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="227" startTime="203800" endTime="204275" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="228" startTime="204275" endTime="204775" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="229" startTime="204775" endTime="205250" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="230" startTime="205250" endTime="205725" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="231" startTime="205725" endTime="206225" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="232" startTime="206225" endTime="206700" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="233" startTime="206700" endTime="207175" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="234" startTime="207175" endTime="207675" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="235" startTime="207675" endTime="208150" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="236" startTime="208150" endTime="208650" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="237" startTime="208650" endTime="209125" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="238" startTime="209125" endTime="209600" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="239" startTime="209600" endTime="210075" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="240" startTime="210075" endTime="210575" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="241" startTime="210575" endTime="211050" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="242" startTime="211050" endTime="211525" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="243" startTime="211525" endTime="212025" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="244" startTime="212025" endTime="212500" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="245" startTime="212500" endTime="212975" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="246" startTime="212975" endTime="213475" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="247" startTime="213475" endTime="213950" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="248" startTime="213950" endTime="214450" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="249" startTime="214450" endTime="214925" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="250" startTime="214925" endTime="215400" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="251" startTime="215400" endTime="215875" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="252" startTime="215875" endTime="216375" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="253" startTime="216375" endTime="216850" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="254" startTime="216850" endTime="217350" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="255" startTime="217350" endTime="217825" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="256" startTime="217825" endTime="218325" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="257" startTime="218325" endTime="218725" palette="13"/>
-        <Effect ref="1" name="Shockwave" id="258" startTime="218725" endTime="219125" palette="13"/>
-        <Effect ref="4" name="Twinkle" selected="1" id="259" startTime="219125" endTime="223550" palette="9"/>
+        <Effect ref="0" name="Pinwheel" startTime="43175" endTime="56700" palette="0"/>
+        <Effect ref="1" name="Shockwave" id="1" startTime="56700" endTime="57200" palette="1"/>
+        <Effect ref="1" name="Shockwave" id="2" startTime="57200" endTime="57675" palette="1"/>
+        <Effect ref="1" name="Shockwave" id="3" startTime="57675" endTime="58150" palette="2"/>
+        <Effect ref="1" name="Shockwave" id="4" startTime="58150" endTime="58625" palette="2"/>
+        <Effect ref="1" name="Shockwave" id="5" startTime="58625" endTime="59125" palette="3"/>
+        <Effect ref="1" name="Shockwave" id="6" startTime="59125" endTime="59600" palette="3"/>
+        <Effect ref="1" name="Shockwave" id="7" startTime="59600" endTime="60075" palette="4"/>
+        <Effect ref="1" name="Shockwave" id="8" startTime="60075" endTime="60575" palette="4"/>
+        <Effect ref="1" name="Shockwave" id="9" startTime="60575" endTime="61050" palette="2"/>
+        <Effect ref="1" name="Shockwave" id="10" startTime="61050" endTime="61550" palette="2"/>
+        <Effect ref="1" name="Shockwave" id="11" startTime="61550" endTime="62025" palette="3"/>
+        <Effect ref="1" name="Shockwave" id="12" startTime="62025" endTime="62500" palette="3"/>
+        <Effect ref="1" name="Shockwave" id="13" startTime="62500" endTime="62975" palette="4"/>
+        <Effect ref="1" name="Shockwave" id="14" startTime="62975" endTime="63475" palette="4"/>
+        <Effect ref="1" name="Shockwave" id="15" startTime="63475" endTime="63950" palette="2"/>
+        <Effect ref="1" name="Shockwave" id="16" startTime="63950" endTime="64425" palette="2"/>
+        <Effect ref="1" name="Shockwave" id="17" startTime="64425" endTime="64925" palette="3"/>
+        <Effect ref="1" name="Shockwave" id="18" startTime="64925" endTime="65400" palette="3"/>
+        <Effect ref="1" name="Shockwave" id="19" startTime="65400" endTime="65900" palette="4"/>
+        <Effect ref="1" name="Shockwave" id="20" startTime="65900" endTime="66375" palette="4"/>
+        <Effect ref="1" name="Shockwave" id="21" startTime="66375" endTime="66850" palette="3"/>
+        <Effect ref="1" name="Shockwave" id="22" startTime="66850" endTime="67350" palette="3"/>
+        <Effect ref="1" name="Shockwave" id="23" startTime="67350" endTime="67825" palette="4"/>
+        <Effect ref="1" name="Shockwave" id="24" startTime="67825" endTime="68325" palette="4"/>
+        <Effect ref="1" name="Shockwave" id="25" startTime="68325" endTime="68800" palette="2"/>
+        <Effect ref="1" name="Shockwave" id="26" startTime="68800" endTime="69275" palette="2"/>
+        <Effect ref="1" name="Shockwave" id="27" startTime="69275" endTime="69775" palette="4"/>
+        <Effect ref="1" name="Shockwave" id="28" startTime="69775" endTime="70250" palette="4"/>
+        <Effect ref="1" name="Shockwave" id="29" startTime="70250" endTime="70725" palette="2"/>
+        <Effect ref="1" name="Shockwave" id="30" startTime="70725" endTime="71225" palette="2"/>
+        <Effect ref="1" name="Shockwave" id="31" startTime="71225" endTime="71700" palette="3"/>
+        <Effect ref="1" name="Shockwave" id="32" startTime="71700" endTime="72175" palette="3"/>
+        <Effect ref="1" name="Shockwave" id="33" startTime="72175" endTime="72675" palette="4"/>
+        <Effect ref="1" name="Shockwave" id="34" startTime="72675" endTime="73150" palette="4"/>
+        <Effect ref="1" name="Shockwave" id="35" startTime="73150" endTime="73625" palette="3"/>
+        <Effect ref="1" name="Shockwave" id="36" startTime="73625" endTime="74125" palette="3"/>
+        <Effect ref="1" name="Shockwave" id="37" startTime="74125" endTime="74600" palette="2"/>
+        <Effect ref="1" name="Shockwave" id="38" startTime="74600" endTime="75075" palette="2"/>
+        <Effect ref="1" name="Shockwave" id="39" startTime="75075" endTime="75575" palette="3"/>
+        <Effect ref="1" name="Shockwave" id="40" startTime="75575" endTime="76050" palette="3"/>
+        <Effect ref="1" name="Shockwave" id="41" startTime="76050" endTime="76525" palette="4"/>
+        <Effect ref="1" name="Shockwave" id="42" startTime="76525" endTime="77025" palette="4"/>
+        <Effect ref="1" name="Shockwave" id="43" startTime="77025" endTime="77500" palette="3"/>
+        <Effect ref="1" name="Shockwave" id="44" startTime="77500" endTime="77975" palette="3"/>
+        <Effect ref="1" name="Shockwave" id="45" startTime="77975" endTime="78475" palette="2"/>
+        <Effect ref="1" name="Shockwave" id="46" startTime="78475" endTime="78950" palette="2"/>
+        <Effect ref="1" name="Shockwave" id="47" startTime="78950" endTime="79450" palette="4"/>
+        <Effect ref="1" name="Shockwave" id="48" startTime="79450" endTime="79925" palette="4"/>
+        <Effect ref="1" name="Shockwave" id="49" startTime="79925" endTime="80400" palette="2"/>
+        <Effect ref="1" name="Shockwave" id="50" startTime="80400" endTime="80900" palette="2"/>
+        <Effect ref="1" name="Shockwave" id="51" startTime="80900" endTime="81375" palette="3"/>
+        <Effect ref="1" name="Shockwave" id="52" startTime="81375" endTime="81850" palette="3"/>
+        <Effect ref="1" name="Shockwave" id="53" startTime="81850" endTime="82350" palette="4"/>
+        <Effect ref="1" name="Shockwave" id="54" startTime="82350" endTime="82825" palette="4"/>
+        <Effect ref="1" name="Shockwave" id="55" startTime="82825" endTime="83325" palette="2"/>
+        <Effect ref="1" name="Shockwave" id="56" startTime="83325" endTime="83800" palette="2"/>
+        <Effect ref="1" name="Shockwave" id="57" startTime="83800" endTime="84275" palette="3"/>
+        <Effect ref="1" name="Shockwave" id="58" startTime="84275" endTime="84775" palette="3"/>
+        <Effect ref="1" name="Shockwave" id="59" startTime="84775" endTime="85250" palette="4"/>
+        <Effect ref="1" name="Shockwave" id="60" startTime="85250" endTime="85725" palette="4"/>
+        <Effect ref="1" name="Shockwave" id="61" startTime="85725" endTime="86225" palette="2"/>
+        <Effect ref="1" name="Shockwave" id="62" startTime="86225" endTime="86700" palette="2"/>
+        <Effect ref="1" name="Shockwave" id="63" startTime="86700" endTime="87175" palette="3"/>
+        <Effect ref="1" name="Shockwave" id="64" startTime="87175" endTime="87675" palette="3"/>
+        <Effect ref="2" name="Pinwheel" id="65" startTime="87750" endTime="94975" palette="5"/>
+        <Effect ref="1" name="Shockwave" id="66" startTime="95400" endTime="95875" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="67" startTime="95875" endTime="96375" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="68" startTime="96375" endTime="96850" palette="7"/>
+        <Effect ref="1" name="Shockwave" id="69" startTime="96850" endTime="97350" palette="7"/>
+        <Effect ref="1" name="Shockwave" id="70" startTime="97350" endTime="97825" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="71" startTime="97825" endTime="98325" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="72" startTime="98325" endTime="98800" palette="8"/>
+        <Effect ref="1" name="Shockwave" id="73" startTime="98800" endTime="99275" palette="8"/>
+        <Effect ref="1" name="Shockwave" id="74" startTime="99275" endTime="99775" palette="7"/>
+        <Effect ref="1" name="Shockwave" id="75" startTime="99775" endTime="100250" palette="7"/>
+        <Effect ref="1" name="Shockwave" id="76" startTime="100250" endTime="100725" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="77" startTime="100725" endTime="101225" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="78" startTime="101225" endTime="101700" palette="7"/>
+        <Effect ref="1" name="Shockwave" id="79" startTime="101700" endTime="102175" palette="7"/>
+        <Effect ref="1" name="Shockwave" id="80" startTime="102175" endTime="102675" palette="8"/>
+        <Effect ref="1" name="Shockwave" id="81" startTime="102675" endTime="103150" palette="8"/>
+        <Effect ref="1" name="Shockwave" id="82" startTime="103150" endTime="103625" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="83" startTime="103625" endTime="104125" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="84" startTime="104125" endTime="104600" palette="7"/>
+        <Effect ref="1" name="Shockwave" id="85" startTime="104600" endTime="105100" palette="7"/>
+        <Effect ref="1" name="Shockwave" id="86" startTime="105100" endTime="105575" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="87" startTime="105575" endTime="106050" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="88" startTime="106050" endTime="106525" palette="8"/>
+        <Effect ref="1" name="Shockwave" id="89" startTime="106525" endTime="107025" palette="8"/>
+        <Effect ref="1" name="Shockwave" id="90" startTime="107025" endTime="107500" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="91" startTime="107500" endTime="108000" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="92" startTime="108000" endTime="108475" palette="7"/>
+        <Effect ref="1" name="Shockwave" id="93" startTime="108475" endTime="108950" palette="7"/>
+        <Effect ref="1" name="Shockwave" id="94" startTime="108950" endTime="109425" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="95" startTime="109425" endTime="109925" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="96" startTime="109925" endTime="110400" palette="8"/>
+        <Effect ref="1" name="Shockwave" id="97" startTime="110400" endTime="110900" palette="8"/>
+        <Effect ref="1" name="Shockwave" id="98" startTime="110900" endTime="111375" palette="7"/>
+        <Effect ref="1" name="Shockwave" id="99" startTime="111375" endTime="111850" palette="7"/>
+        <Effect ref="1" name="Shockwave" id="100" startTime="111850" endTime="112350" palette="7"/>
+        <Effect ref="1" name="Shockwave" id="101" startTime="112350" endTime="112825" palette="7"/>
+        <Effect ref="1" name="Shockwave" id="102" startTime="112825" endTime="113325" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="103" startTime="113325" endTime="113800" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="104" startTime="113800" endTime="114275" palette="8"/>
+        <Effect ref="1" name="Shockwave" id="105" startTime="114275" endTime="114775" palette="8"/>
+        <Effect ref="1" name="Shockwave" id="106" startTime="114775" endTime="115250" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="107" startTime="115250" endTime="115725" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="108" startTime="115725" endTime="116225" palette="7"/>
+        <Effect ref="1" name="Shockwave" id="109" startTime="116225" endTime="116700" palette="7"/>
+        <Effect ref="1" name="Shockwave" id="110" startTime="116700" endTime="117175" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="111" startTime="117175" endTime="117675" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="112" startTime="117675" endTime="118150" palette="8"/>
+        <Effect ref="1" name="Shockwave" id="113" startTime="118150" endTime="118625" palette="8"/>
+        <Effect ref="1" name="Shockwave" id="114" startTime="118625" endTime="119125" palette="7"/>
+        <Effect ref="1" name="Shockwave" id="115" startTime="119125" endTime="119600" palette="7"/>
+        <Effect ref="1" name="Shockwave" id="116" startTime="119600" endTime="120075" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="117" startTime="120075" endTime="120575" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="118" startTime="120575" endTime="121050" palette="8"/>
+        <Effect ref="1" name="Shockwave" id="119" startTime="121050" endTime="121525" palette="8"/>
+        <Effect ref="1" name="Shockwave" id="120" startTime="121525" endTime="122025" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="121" startTime="122025" endTime="122500" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="122" startTime="122500" endTime="123000" palette="7"/>
+        <Effect ref="1" name="Shockwave" id="123" startTime="123000" endTime="123475" palette="7"/>
+        <Effect ref="1" name="Shockwave" id="124" startTime="123475" endTime="123950" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="125" startTime="123950" endTime="124425" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="126" startTime="124425" endTime="124925" palette="8"/>
+        <Effect ref="1" name="Shockwave" id="127" startTime="124925" endTime="125400" palette="8"/>
+        <Effect ref="1" name="Shockwave" id="128" startTime="125400" endTime="125900" palette="7"/>
+        <Effect ref="1" name="Shockwave" id="129" startTime="125900" endTime="126375" palette="7"/>
+        <Effect ref="1" name="Shockwave" id="130" startTime="126375" endTime="126850" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="131" startTime="126850" endTime="127350" palette="9"/>
+        <Effect ref="1" name="Shockwave" id="132" startTime="127350" endTime="127825" palette="10"/>
+        <Effect ref="1" name="Shockwave" id="133" startTime="127825" endTime="128325" palette="11"/>
+        <Effect ref="1" name="Shockwave" id="134" startTime="128325" endTime="128800" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="135" startTime="128800" endTime="129275" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="136" startTime="129275" endTime="129750" palette="7"/>
+        <Effect ref="1" name="Shockwave" id="137" startTime="129750" endTime="130250" palette="7"/>
+        <Effect ref="1" name="Shockwave" id="138" startTime="130250" endTime="130725" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="139" startTime="130725" endTime="131225" palette="9"/>
+        <Effect ref="1" name="Shockwave" id="140" startTime="131225" endTime="131700" palette="10"/>
+        <Effect ref="1" name="Shockwave" id="141" startTime="131700" endTime="132175" palette="11"/>
+        <Effect ref="1" name="Shockwave" id="142" startTime="132175" endTime="132675" palette="7"/>
+        <Effect ref="1" name="Shockwave" id="143" startTime="132675" endTime="133150" palette="7"/>
+        <Effect ref="1" name="Shockwave" id="144" startTime="133150" endTime="133625" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="145" startTime="133625" endTime="134125" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="146" startTime="134125" endTime="134600" palette="8"/>
+        <Effect ref="1" name="Shockwave" id="147" startTime="134600" endTime="135075" palette="8"/>
+        <Effect ref="1" name="Shockwave" id="148" startTime="135075" endTime="135575" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="149" startTime="135575" endTime="136050" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="150" startTime="136050" endTime="136525" palette="7"/>
+        <Effect ref="1" name="Shockwave" id="151" startTime="136525" endTime="137025" palette="7"/>
+        <Effect ref="1" name="Shockwave" id="152" startTime="137025" endTime="137500" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="153" startTime="137500" endTime="137975" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="154" startTime="137975" endTime="138475" palette="8"/>
+        <Effect ref="1" name="Shockwave" id="155" startTime="138475" endTime="138950" palette="8"/>
+        <Effect ref="1" name="Shockwave" id="156" startTime="138950" endTime="139450" palette="7"/>
+        <Effect ref="1" name="Shockwave" id="157" startTime="139450" endTime="139925" palette="7"/>
+        <Effect ref="1" name="Shockwave" id="158" startTime="139925" endTime="140400" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="159" startTime="140400" endTime="140900" palette="6"/>
+        <Effect ref="1" name="Shockwave" id="160" startTime="140900" endTime="141375" palette="8"/>
+        <Effect ref="1" name="Shockwave" id="161" startTime="141375" endTime="141850" palette="8"/>
+        <Effect ref="3" name="Twinkle" id="162" startTime="141850" endTime="172475" palette="12"/>
+        <Effect ref="1" name="Shockwave" id="163" startTime="172900" endTime="173325" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="164" startTime="173325" endTime="173800" palette="14"/>
+        <Effect ref="1" name="Shockwave" id="165" startTime="173800" endTime="174275" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="166" startTime="174275" endTime="174775" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="167" startTime="174775" endTime="175250" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="168" startTime="175250" endTime="175725" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="169" startTime="175725" endTime="176225" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="170" startTime="176225" endTime="176700" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="171" startTime="176700" endTime="177175" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="172" startTime="177175" endTime="177675" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="173" startTime="177675" endTime="178150" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="174" startTime="178150" endTime="178625" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="175" startTime="178625" endTime="179125" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="176" startTime="179125" endTime="179600" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="177" startTime="179600" endTime="180075" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="178" startTime="180075" endTime="180575" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="179" startTime="180575" endTime="181050" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="180" startTime="181050" endTime="181525" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="181" startTime="181525" endTime="182025" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="182" startTime="182025" endTime="182500" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="183" startTime="182500" endTime="183000" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="184" startTime="183000" endTime="183475" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="185" startTime="183475" endTime="183950" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="186" startTime="183950" endTime="184450" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="187" startTime="184450" endTime="184925" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="188" startTime="184925" endTime="185400" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="189" startTime="185400" endTime="185875" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="190" startTime="185875" endTime="186375" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="191" startTime="186375" endTime="186850" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="192" startTime="186850" endTime="187350" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="193" startTime="187350" endTime="187825" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="194" startTime="188325" endTime="188800" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="195" startTime="188800" endTime="189275" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="196" startTime="189275" endTime="189775" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="197" startTime="189775" endTime="190250" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="198" startTime="190250" endTime="190725" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="199" startTime="190725" endTime="191225" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="200" startTime="191225" endTime="191700" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="201" startTime="191700" endTime="192175" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="202" startTime="192175" endTime="192675" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="203" startTime="192675" endTime="193150" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="204" startTime="193150" endTime="193625" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="205" startTime="193625" endTime="194125" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="206" startTime="194125" endTime="194600" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="207" startTime="194600" endTime="195075" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="208" startTime="195075" endTime="195575" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="209" startTime="195575" endTime="196050" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="210" startTime="196050" endTime="196525" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="211" startTime="196525" endTime="197025" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="212" startTime="197025" endTime="197500" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="213" startTime="197500" endTime="197975" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="214" startTime="197975" endTime="198475" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="215" startTime="198475" endTime="198950" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="216" startTime="198950" endTime="199425" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="217" startTime="199425" endTime="199925" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="218" startTime="199925" endTime="200400" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="219" startTime="200400" endTime="200900" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="220" startTime="200900" endTime="201375" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="221" startTime="201375" endTime="201850" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="222" startTime="201850" endTime="202350" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="223" startTime="202350" endTime="202825" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="224" startTime="202825" endTime="203325" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="225" startTime="203325" endTime="203800" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="226" startTime="203800" endTime="204275" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="227" startTime="204275" endTime="204775" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="228" startTime="204775" endTime="205250" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="229" startTime="205250" endTime="205725" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="230" startTime="205725" endTime="206225" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="231" startTime="206225" endTime="206700" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="232" startTime="206700" endTime="207175" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="233" startTime="207175" endTime="207675" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="234" startTime="207675" endTime="208150" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="235" startTime="208150" endTime="208650" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="236" startTime="208650" endTime="209125" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="237" startTime="209125" endTime="209600" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="238" startTime="209600" endTime="210075" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="239" startTime="210075" endTime="210575" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="240" startTime="210575" endTime="211050" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="241" startTime="211050" endTime="211525" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="242" startTime="211525" endTime="212025" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="243" startTime="212025" endTime="212500" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="244" startTime="212500" endTime="212975" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="245" startTime="212975" endTime="213475" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="246" startTime="213475" endTime="213950" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="247" startTime="213950" endTime="214450" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="248" startTime="214450" endTime="214925" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="249" startTime="214925" endTime="215400" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="250" startTime="215400" endTime="215875" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="251" startTime="215875" endTime="216375" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="252" startTime="216375" endTime="216850" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="253" startTime="216850" endTime="217350" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="254" startTime="217350" endTime="217825" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="255" startTime="217825" endTime="218325" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="256" startTime="218325" endTime="218725" palette="13"/>
+        <Effect ref="1" name="Shockwave" id="257" startTime="218725" endTime="219125" palette="13"/>
+        <Effect ref="4" name="Twinkle" id="258" startTime="219125" endTime="223550" palette="9"/>
       </EffectLayer>
       <EffectLayer>
         <Effect ref="5" name="VU Meter" startTime="1025" endTime="10275" palette="15"/>
@@ -4588,10 +4592,14 @@
       </EffectLayer>
     </Element>
     <Element type="model" name="Eaves GRP">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="22" name="VU Meter" startTime="25725" endTime="41225" palette="24"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Verts GRP">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="22" name="VU Meter" startTime="25725" endTime="41225" palette="24"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="GE Singing Bulb 1 GRP">
       <EffectLayer/>
@@ -4628,14 +4636,14 @@
     </Element>
     <Element type="model" name="GE Hattitude Snowflake Arms GRP">
       <EffectLayer>
-        <Effect ref="22" name="Shockwave" startTime="2525" endTime="3475" palette="24"/>
-        <Effect ref="22" name="Shockwave" id="1" startTime="3475" endTime="4475" palette="24"/>
-        <Effect ref="22" name="Shockwave" id="2" startTime="4475" endTime="5425" palette="24"/>
-        <Effect ref="22" name="Shockwave" id="3" startTime="5425" endTime="6400" palette="24"/>
-        <Effect ref="22" name="Shockwave" id="4" startTime="6400" endTime="7350" palette="24"/>
-        <Effect ref="22" name="Shockwave" id="5" startTime="7350" endTime="8325" palette="24"/>
-        <Effect ref="22" name="Shockwave" id="6" startTime="8325" endTime="9300" palette="24"/>
-        <Effect ref="22" name="Shockwave" id="7" startTime="9300" endTime="10275" palette="24"/>
+        <Effect ref="23" name="Shockwave" startTime="2525" endTime="3475" palette="25"/>
+        <Effect ref="23" name="Shockwave" id="1" startTime="3475" endTime="4475" palette="25"/>
+        <Effect ref="23" name="Shockwave" id="2" startTime="4475" endTime="5425" palette="25"/>
+        <Effect ref="23" name="Shockwave" id="3" startTime="5425" endTime="6400" palette="25"/>
+        <Effect ref="23" name="Shockwave" id="4" startTime="6400" endTime="7350" palette="25"/>
+        <Effect ref="23" name="Shockwave" id="5" startTime="7350" endTime="8325" palette="25"/>
+        <Effect ref="23" name="Shockwave" id="6" startTime="8325" endTime="9300" palette="25"/>
+        <Effect ref="23" name="Shockwave" id="7" startTime="9300" endTime="10275" palette="25"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GE Rosa Grande Torch Long Even Quartet GRP">
@@ -4646,7 +4654,7 @@
     </Element>
     <Element type="model" name="GE Rosa Grande Torch Long Quartet GRP">
       <EffectLayer>
-        <Effect ref="23" name="Pinwheel" startTime="500" endTime="2525" palette="24"/>
+        <Effect ref="24" name="Pinwheel" startTime="500" endTime="2525" palette="25"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Hattitude Quartet 1 Spinner">
@@ -4662,7 +4670,12 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="Hattitude Quartets GRP">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="25" name="Color Wash" startTime="41225" endTime="56700" palette="24"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="26" name="Shader" startTime="41225" endTime="56700" palette="24"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Mega Spinner 2 Spokes">
       <EffectLayer/>
@@ -4670,24 +4683,24 @@
     <Element type="model" name="Hattitude Quartet">
       <EffectLayer/>
       <EffectLayer>
-        <Effect ref="24" name="Faces" startTime="9550" endTime="40325" palette="25"/>
-        <Effect ref="24" name="Faces" id="1" startTime="57050" endTime="58950" palette="25"/>
-        <Effect ref="24" name="Faces" id="2" startTime="64950" endTime="66625" palette="25"/>
-        <Effect ref="25" name="Faces" id="3" startTime="72675" endTime="87875" palette="25"/>
-        <Effect ref="24" name="Faces" id="4" startTime="94725" endTime="113075" palette="26"/>
-        <Effect ref="24" name="Faces" id="5" startTime="119100" endTime="120825" palette="26"/>
-        <Effect ref="25" name="Faces" id="6" startTime="126725" endTime="141750" palette="25"/>
-        <Effect ref="24" name="Faces" id="7" startTime="141750" endTime="172575" palette="25"/>
-        <Effect ref="25" name="Faces" id="8" startTime="173225" endTime="188425" palette="25"/>
-        <Effect ref="24" name="Faces" id="9" startTime="188775" endTime="190550" palette="25"/>
-        <Effect ref="24" name="Faces" id="10" startTime="196525" endTime="198300" palette="25"/>
-        <Effect ref="25" name="Faces" id="11" startTime="204300" endTime="223400" palette="25"/>
+        <Effect ref="27" name="Faces" startTime="9550" endTime="40325" palette="26"/>
+        <Effect ref="27" name="Faces" id="1" startTime="57050" endTime="58950" palette="26"/>
+        <Effect ref="27" name="Faces" id="2" startTime="64950" endTime="66625" palette="26"/>
+        <Effect ref="28" name="Faces" id="3" startTime="72675" endTime="87875" palette="26"/>
+        <Effect ref="27" name="Faces" id="4" startTime="94725" endTime="113075" palette="27"/>
+        <Effect ref="27" name="Faces" id="5" startTime="119100" endTime="120825" palette="27"/>
+        <Effect ref="28" name="Faces" id="6" startTime="126725" endTime="141750" palette="26"/>
+        <Effect ref="27" name="Faces" id="7" startTime="141750" endTime="172575" palette="26"/>
+        <Effect ref="28" name="Faces" id="8" startTime="173225" endTime="188425" palette="26"/>
+        <Effect ref="27" name="Faces" id="9" startTime="188775" endTime="190550" palette="26"/>
+        <Effect ref="27" name="Faces" id="10" startTime="196525" endTime="198300" palette="26"/>
+        <Effect ref="28" name="Faces" id="11" startTime="204300" endTime="223400" palette="26"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Icicles-Lower-LG">
       <EffectLayer>
-        <Effect ref="26" name="Wave" startTime="2550" endTime="25725" palette="27"/>
-        <Effect ref="27" name="SingleStrand" id="1" startTime="87675" endTime="125425" palette="28"/>
+        <Effect ref="29" name="Wave" startTime="2550" endTime="25725" palette="28"/>
+        <Effect ref="30" name="SingleStrand" id="1" startTime="87675" endTime="125425" palette="29"/>
       </EffectLayer>
       <EffectLayer/>
     </Element>
@@ -4696,12 +4709,12 @@
     </Element>
     <Element type="model" name="Vert 2">
       <EffectLayer>
-        <Effect ref="28" name="VU Meter" startTime="10275" endTime="25725" palette="25"/>
+        <Effect ref="31" name="VU Meter" startTime="10275" endTime="25725" palette="26"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Vert 1">
       <EffectLayer>
-        <Effect ref="28" name="VU Meter" startTime="10275" endTime="25725" palette="25"/>
+        <Effect ref="31" name="VU Meter" startTime="10275" endTime="25725" palette="26"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="DMX Controller">
@@ -4718,20 +4731,20 @@
     </Element>
     <Element type="model" name="GE Singing Bulb 1">
       <EffectLayer>
-        <Effect ref="29" name="Faces" startTime="40325" endTime="72675" palette="26"/>
-        <Effect ref="29" name="Faces" id="1" startTime="87875" endTime="126725" palette="26"/>
-        <Effect ref="29" name="Faces" id="2" startTime="156650" endTime="172575" palette="26"/>
-        <Effect ref="29" name="Faces" id="3" startTime="187550" endTime="204300" palette="26"/>
-        <Effect ref="29" name="Faces" id="4" startTime="211975" endTime="214325" palette="26"/>
+        <Effect ref="32" name="Faces" startTime="40325" endTime="72675" palette="27"/>
+        <Effect ref="32" name="Faces" id="1" startTime="87875" endTime="126725" palette="27"/>
+        <Effect ref="32" name="Faces" id="2" startTime="156650" endTime="172575" palette="27"/>
+        <Effect ref="32" name="Faces" id="3" startTime="187550" endTime="204300" palette="27"/>
+        <Effect ref="32" name="Faces" id="4" startTime="211975" endTime="214325" palette="27"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GE Singing Bulb 2">
       <EffectLayer>
-        <Effect ref="29" name="Faces" startTime="40325" endTime="72675" palette="26"/>
-        <Effect ref="29" name="Faces" id="1" startTime="87875" endTime="126725" palette="26"/>
-        <Effect ref="29" name="Faces" id="2" startTime="156650" endTime="172575" palette="26"/>
-        <Effect ref="29" name="Faces" id="3" startTime="187550" endTime="204300" palette="26"/>
-        <Effect ref="29" name="Faces" id="4" startTime="211900" endTime="214250" palette="26"/>
+        <Effect ref="32" name="Faces" startTime="40325" endTime="72675" palette="27"/>
+        <Effect ref="32" name="Faces" id="1" startTime="87875" endTime="126725" palette="27"/>
+        <Effect ref="32" name="Faces" id="2" startTime="156650" endTime="172575" palette="27"/>
+        <Effect ref="32" name="Faces" id="3" startTime="187550" endTime="204300" palette="27"/>
+        <Effect ref="32" name="Faces" id="4" startTime="211900" endTime="214250" palette="27"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Tree A2">
@@ -4754,14 +4767,14 @@
     </Element>
     <Element type="model" name="Icicles GRP">
       <EffectLayer>
-        <Effect ref="30" name="SingleStrand" startTime="10275" endTime="12200" palette="29"/>
-        <Effect ref="30" name="SingleStrand" id="1" startTime="12200" endTime="14150" palette="29"/>
-        <Effect ref="30" name="SingleStrand" id="2" startTime="14150" endTime="16075" palette="29"/>
-        <Effect ref="30" name="SingleStrand" id="3" startTime="16075" endTime="18000" palette="29"/>
-        <Effect ref="30" name="SingleStrand" id="4" startTime="18000" endTime="19950" palette="29"/>
-        <Effect ref="30" name="SingleStrand" id="5" startTime="19950" endTime="21875" palette="29"/>
-        <Effect ref="30" name="SingleStrand" id="6" startTime="21875" endTime="23800" palette="29"/>
-        <Effect ref="30" name="SingleStrand" id="7" startTime="23800" endTime="25725" palette="29"/>
+        <Effect ref="33" name="SingleStrand" startTime="10275" endTime="12200" palette="30"/>
+        <Effect ref="33" name="SingleStrand" id="1" startTime="12200" endTime="14150" palette="30"/>
+        <Effect ref="33" name="SingleStrand" id="2" startTime="14150" endTime="16075" palette="30"/>
+        <Effect ref="33" name="SingleStrand" id="3" startTime="16075" endTime="18000" palette="30"/>
+        <Effect ref="33" name="SingleStrand" id="4" startTime="18000" endTime="19950" palette="30"/>
+        <Effect ref="33" name="SingleStrand" id="5" startTime="19950" endTime="21875" palette="30"/>
+        <Effect ref="33" name="SingleStrand" id="6" startTime="21875" endTime="23800" palette="30"/>
+        <Effect ref="33" name="SingleStrand" id="7" startTime="23800" endTime="25725" palette="30"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GE Who Pup">
