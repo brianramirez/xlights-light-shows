@@ -90,6 +90,10 @@
     <Effect>T_CHOICE_LayerMethod=2 is Unmask</Effect>
     <Effect>E_0FILEPICKERCTRL_IFS=C:\Users\brian\dev\src\personal\xlights-light-shows\shows\2023_christmas\Shaders\Black Cherry Cosmos.fs,E_SLIDER_SHADERXYZZY_mouseX=0,E_SLIDER_SHADERXYZZY_mouseY=0,E_SLIDER_Shader_Speed=100,E_TEXTCTRL_Shader_LeadIn=0,E_TEXTCTRL_Shader_Offset_X=0,E_TEXTCTRL_Shader_Offset_Y=0,E_TEXTCTRL_Shader_Zoom=-75</Effect>
     <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_EyeBlinkFrequency=Normal,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Quartet Tree,E_CHOICE_Faces_TimingTrack=LYRICS</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=bold arial 12 windows-1252,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=20,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=11,E_TEXTCTRL_Text=TUNE TO,E_TEXTCTRL_Text_Speed=15</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=bold 'arial narrow' 18 windows-1252,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=20,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=-20,E_TEXTCTRL_Text=91.9FM,E_TEXTCTRL_Text_Speed=15</Effect>
+    <Effect>E_CHOICE_Falling=Falling,E_SLIDER_Snowflakes_Count=9,E_SLIDER_Snowflakes_Speed=10,E_SLIDER_Snowflakes_Type=1,E_SLIDER_Snowflakes_WarmupFrames=0</Effect>
+    <Effect>E_0FILEPICKERCTRL_IFS=C:\Users\brian\dev\src\personal\xlights-light-shows\shows\2023_christmas\Shaders\Christmas Tree.fs,E_SLIDER_Shader_Speed=200,E_TEXTCTRL_Shader_LeadIn=0,E_TEXTCTRL_Shader_Offset_X=-35,E_TEXTCTRL_Shader_Offset_Y=-17,E_TEXTCTRL_Shader_Zoom=0</Effect>
     <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_EyeBlinkFrequency=Normal,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Upright Bulb - Custom,E_CHOICE_Faces_TimingTrack=CHORUS,T_TEXTCTRL_Fadeout=0.5</Effect>
     <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_EyeBlinkFrequency=Normal,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Upright Bulb - Custom,E_CHOICE_Faces_TimingTrack=CHORUS</Effect>
     <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_EyeBlinkFrequency=Normal,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Upright Bulb - Custom,E_CHOICE_Faces_TimingTrack=CHORUS,T_TEXTCTRL_Fadeout=1.0</Effect>
@@ -3882,17 +3886,17 @@
         <Effect ref="31" name="Shockwave" id="9" startTime="16975" endTime="17450" palette="25"/>
         <Effect ref="31" name="Shockwave" id="10" startTime="17450" endTime="17925" palette="25"/>
         <Effect ref="32" name="Galaxy" id="11" startTime="17925" endTime="19400" palette="24"/>
-        <Effect ref="31" name="Shockwave" id="13" startTime="19400" endTime="19875" palette="25"/>
-        <Effect ref="31" name="Shockwave" id="14" startTime="19875" endTime="20350" palette="25"/>
-        <Effect ref="31" name="Shockwave" id="15" startTime="20350" endTime="20825" palette="25"/>
-        <Effect ref="31" name="Shockwave" id="16" startTime="20825" endTime="21300" palette="25"/>
-        <Effect ref="31" name="Shockwave" id="17" startTime="21300" endTime="21775" palette="25"/>
-        <Effect ref="31" name="Shockwave" id="18" startTime="21775" endTime="22250" palette="25"/>
-        <Effect ref="31" name="Shockwave" id="19" startTime="22250" endTime="22725" palette="25"/>
-        <Effect ref="31" name="Shockwave" id="20" startTime="22725" endTime="23200" palette="25"/>
-        <Effect ref="31" name="Shockwave" id="21" startTime="23200" endTime="23675" palette="25"/>
-        <Effect ref="31" name="Shockwave" id="22" startTime="23675" endTime="25125" palette="25"/>
-        <Effect ref="31" name="Shockwave" id="23" startTime="25125" endTime="26525" palette="25"/>
+        <Effect ref="31" name="Shockwave" id="12" startTime="19400" endTime="19875" palette="25"/>
+        <Effect ref="31" name="Shockwave" id="13" startTime="19875" endTime="20350" palette="25"/>
+        <Effect ref="31" name="Shockwave" id="14" startTime="20350" endTime="20825" palette="25"/>
+        <Effect ref="31" name="Shockwave" id="15" startTime="20825" endTime="21300" palette="25"/>
+        <Effect ref="31" name="Shockwave" id="16" startTime="21300" endTime="21775" palette="25"/>
+        <Effect ref="31" name="Shockwave" id="17" startTime="21775" endTime="22250" palette="25"/>
+        <Effect ref="31" name="Shockwave" id="18" startTime="22250" endTime="22725" palette="25"/>
+        <Effect ref="31" name="Shockwave" id="19" startTime="22725" endTime="23200" palette="25"/>
+        <Effect ref="31" name="Shockwave" id="20" startTime="23200" endTime="23675" palette="25"/>
+        <Effect ref="31" name="Shockwave" id="21" startTime="23675" endTime="25125" palette="25"/>
+        <Effect ref="31" name="Shockwave" id="22" startTime="25125" endTime="26525" palette="25"/>
       </EffectLayer>
       <EffectLayer/>
     </Element>
@@ -3973,7 +3977,18 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="128x32-Matrix">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="41" name="Text" startTime="0" endTime="211000" palette="9"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="42" name="Text" startTime="0" endTime="211000" palette="6"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="43" name="Snowflakes" selected="1" startTime="0" endTime="211000" palette="9"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="44" name="Shader" selected="1" startTime="0" endTime="211000" palette="9"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Vert 2">
       <EffectLayer/>
@@ -3995,30 +4010,30 @@
     </Element>
     <Element type="model" name="GE Singing Bulb 1">
       <EffectLayer>
-        <Effect ref="41" name="Faces" startTime="33200" endTime="35875" palette="27"/>
-        <Effect ref="42" name="Faces" id="1" startTime="42600" endTime="48000" palette="27"/>
-        <Effect ref="42" name="Faces" id="2" startTime="49775" endTime="59025" palette="27"/>
-        <Effect ref="43" name="Faces" id="3" startTime="66925" endTime="76375" palette="27"/>
-        <Effect ref="42" name="Faces" id="4" startTime="81775" endTime="84175" palette="27"/>
-        <Effect ref="42" name="Faces" id="5" startTime="89675" endTime="97800" palette="27"/>
-        <Effect ref="42" name="Faces" id="6" startTime="99250" endTime="124500" palette="27"/>
-        <Effect ref="44" name="Faces" id="7" startTime="126175" endTime="144600" palette="27"/>
-        <Effect ref="42" name="Faces" id="8" startTime="146600" endTime="159500" palette="27"/>
-        <Effect ref="42" name="Faces" id="9" startTime="160275" endTime="199125" palette="27"/>
+        <Effect ref="45" name="Faces" startTime="33200" endTime="35875" palette="27"/>
+        <Effect ref="46" name="Faces" id="1" startTime="42600" endTime="48000" palette="27"/>
+        <Effect ref="46" name="Faces" id="2" startTime="49775" endTime="59025" palette="27"/>
+        <Effect ref="47" name="Faces" id="3" startTime="66925" endTime="76375" palette="27"/>
+        <Effect ref="46" name="Faces" id="4" startTime="81775" endTime="84175" palette="27"/>
+        <Effect ref="46" name="Faces" id="5" startTime="89675" endTime="97800" palette="27"/>
+        <Effect ref="46" name="Faces" id="6" startTime="99250" endTime="124500" palette="27"/>
+        <Effect ref="48" name="Faces" id="7" startTime="126175" endTime="144600" palette="27"/>
+        <Effect ref="46" name="Faces" id="8" startTime="146600" endTime="159500" palette="27"/>
+        <Effect ref="46" name="Faces" id="9" startTime="160275" endTime="199125" palette="27"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GE Singing Bulb 2">
       <EffectLayer>
-        <Effect ref="41" name="Faces" startTime="33200" endTime="35875" palette="27"/>
-        <Effect ref="42" name="Faces" id="1" startTime="42600" endTime="48000" palette="27"/>
-        <Effect ref="42" name="Faces" id="2" startTime="49775" endTime="59025" palette="27"/>
-        <Effect ref="43" name="Faces" id="3" startTime="66925" endTime="76375" palette="27"/>
-        <Effect ref="42" name="Faces" id="4" startTime="81775" endTime="84175" palette="27"/>
-        <Effect ref="42" name="Faces" id="5" startTime="89675" endTime="97800" palette="27"/>
-        <Effect ref="42" name="Faces" id="6" startTime="99250" endTime="124500" palette="27"/>
-        <Effect ref="44" name="Faces" id="7" startTime="126175" endTime="144600" palette="27"/>
-        <Effect ref="45" name="Faces" id="8" startTime="148475" endTime="159500" palette="27"/>
-        <Effect ref="42" name="Faces" id="9" startTime="160275" endTime="199125" palette="27"/>
+        <Effect ref="45" name="Faces" startTime="33200" endTime="35875" palette="27"/>
+        <Effect ref="46" name="Faces" id="1" startTime="42600" endTime="48000" palette="27"/>
+        <Effect ref="46" name="Faces" id="2" startTime="49775" endTime="59025" palette="27"/>
+        <Effect ref="47" name="Faces" id="3" startTime="66925" endTime="76375" palette="27"/>
+        <Effect ref="46" name="Faces" id="4" startTime="81775" endTime="84175" palette="27"/>
+        <Effect ref="46" name="Faces" id="5" startTime="89675" endTime="97800" palette="27"/>
+        <Effect ref="46" name="Faces" id="6" startTime="99250" endTime="124500" palette="27"/>
+        <Effect ref="48" name="Faces" id="7" startTime="126175" endTime="144600" palette="27"/>
+        <Effect ref="49" name="Faces" id="8" startTime="148475" endTime="159500" palette="27"/>
+        <Effect ref="46" name="Faces" id="9" startTime="160275" endTime="199125" palette="27"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Tree A2">
@@ -4034,7 +4049,7 @@
       <EffectLayer/>
     </Element>
   </ElementEffects>
-  <lastView>6</lastView>
+  <lastView>3</lastView>
   <TimingTags>
     <Tag number="0" position="-1"/>
     <Tag number="1" position="-1"/>

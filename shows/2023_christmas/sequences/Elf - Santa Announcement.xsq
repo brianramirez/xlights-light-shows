@@ -26,6 +26,7 @@
     <ColorPalette>C_BUTTON_Palette1=#FF80FF,C_BUTTON_Palette2=#00FFFF,C_BUTTON_Palette3=#80FF80,C_BUTTON_Palette4=#FFFF00,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FF80FF,C_BUTTON_Palette2=#00FFFF,C_BUTTON_Palette3=#0000FF,C_BUTTON_Palette4=#FFFF00,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette7=1</ColorPalette>
   </ColorPalettes>
   <EffectDB>
@@ -39,9 +40,10 @@
     <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_EyeBlinkFrequency=Normal,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Upright Bulb - Custom,E_CHOICE_Faces_TimingTrack=PERSON 1,T_TEXTCTRL_Fadein=2.00,T_TEXTCTRL_Fadeout=2</Effect>
     <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_EyeBlinkFrequency=Normal,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Upright Bulb - Custom,E_CHOICE_Faces_TimingTrack=PERSON 2,T_TEXTCTRL_Fadein=2.00,T_TEXTCTRL_Fadeout=2</Effect>
     <Effect>B_CHOICE_BufferStyle=Overlay - Centered,E_CHECKBOX_Mirror_Wave=0,E_CHOICE_Fill_Colors=Palette,E_CHOICE_Wave_Direction=Right to Left,E_CHOICE_Wave_Type=Sine,E_SLIDER_Number_Waves=1539,E_SLIDER_Thickness_Percentage=65,E_SLIDER_Wave_Height=85,E_SLIDER_Wave_YOffset=0,E_TEXTCTRL_Wave_Speed=10,T_TEXTCTRL_Fadein=2.0,T_TEXTCTRL_Fadeout=2.0</Effect>
-    <Effect>E_CHECKBOX_Marquee_PixelOffsets=0,E_CHECKBOX_Marquee_Reverse=0,E_CHECKBOX_Marquee_WrapX=0,E_CHECKBOX_Marquee_WrapY=0,E_NOTEBOOK_Marquee=Settings,E_SLIDER_MarqueeXC=0,E_SLIDER_MarqueeYC=0,E_SLIDER_Marquee_Band_Size=25,E_SLIDER_Marquee_ScaleX=100,E_SLIDER_Marquee_ScaleY=100,E_SLIDER_Marquee_Skip_Size=0,E_SLIDER_Marquee_Speed=3,E_SLIDER_Marquee_Stagger=0,E_SLIDER_Marquee_Start=0,E_SLIDER_Marquee_Thickness=2,T_TEXTCTRL_Fadein=2.0,T_TEXTCTRL_Fadeout=2.0</Effect>
-    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=10-12x12 Bold,E_FILEPICKERCTRL_Text_File=,E_FONTPICKER_Text_Font=bold 'segoe ui' 18 windows-1252,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=TUNE TO 91.9FM,E_TEXTCTRL_Text_Speed=10,T_TEXTCTRL_Fadein=2.0,T_TEXTCTRL_Fadeout=2.0</Effect>
-    <Effect>E_CHOICE_Falling=Driving,E_SLIDER_Snowflakes_Count=5,E_SLIDER_Snowflakes_Speed=10,E_SLIDER_Snowflakes_Type=1,T_TEXTCTRL_Fadein=2.0,T_TEXTCTRL_Fadeout=2.0</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=bold arial 12 windows-1252,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=20,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=11,E_TEXTCTRL_Text=TUNE TO,E_TEXTCTRL_Text_Speed=15</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=bold 'arial narrow' 18 windows-1252,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=20,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=-20,E_TEXTCTRL_Text=91.9FM,E_TEXTCTRL_Text_Speed=15</Effect>
+    <Effect>E_CHOICE_Falling=Falling,E_SLIDER_Snowflakes_Count=9,E_SLIDER_Snowflakes_Speed=10,E_SLIDER_Snowflakes_Type=1,E_SLIDER_Snowflakes_WarmupFrames=0</Effect>
+    <Effect>E_0FILEPICKERCTRL_IFS=C:\Users\brian\dev\src\personal\xlights-light-shows\shows\2023_christmas\Shaders\Christmas Tree.fs,E_SLIDER_Shader_Speed=200,E_TEXTCTRL_Shader_LeadIn=0,E_TEXTCTRL_Shader_Offset_X=-35,E_TEXTCTRL_Shader_Offset_Y=-17,E_TEXTCTRL_Shader_Zoom=0</Effect>
     <Effect>B_CHOICE_BufferStyle=Overlay - Centered,E_CHOICE_Falling=Falling,E_SLIDER_Snowflakes_Count=100,E_SLIDER_Snowflakes_Speed=10,E_SLIDER_Snowflakes_Type=1,E_SLIDER_Snowflakes_WarmupFrames=0,T_TEXTCTRL_Fadein=2.00,T_TEXTCTRL_Fadeout=2.0</Effect>
   </EffectDB>
   <DataLayers>
@@ -846,20 +848,22 @@
       </EffectLayer>
     </Element>
     <Element type="model" name="128x32-Matrix">
-      <EffectLayer/>
       <EffectLayer>
-        <Effect ref="10" name="Marquee" startTime="0" endTime="58650" palette="1"/>
+        <Effect ref="10" name="Text" startTime="0" endTime="58750" palette="6"/>
       </EffectLayer>
       <EffectLayer>
-        <Effect ref="11" name="Text" startTime="0" endTime="58650" palette="6"/>
+        <Effect ref="11" name="Text" startTime="0" endTime="58750" palette="7"/>
       </EffectLayer>
       <EffectLayer>
-        <Effect ref="12" name="Snowflakes" startTime="0" endTime="58650" palette="1"/>
+        <Effect ref="12" name="Snowflakes" startTime="0" endTime="58750" palette="6"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="13" name="Shader" startTime="0" endTime="58750" palette="6"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="All Pixels No Flood GRP">
       <EffectLayer>
-        <Effect ref="13" name="Snowflakes" startTime="0" endTime="58700" palette="7"/>
+        <Effect ref="14" name="Snowflakes" startTime="0" endTime="58700" palette="8"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="All Pixels No Faces GRP">
@@ -869,7 +873,7 @@
       <EffectLayer/>
     </Element>
   </ElementEffects>
-  <lastView>6</lastView>
+  <lastView>3</lastView>
   <TimingTags>
     <Tag number="0" position="-1"/>
     <Tag number="1" position="-1"/>
